@@ -1,3 +1,5 @@
+<a href="/projects/" style="display:inline-block; background:#222; color:#ffcc00; padding:10px 15px; border-radius:5px; text-decoration:none;">🚀 View Projects</a>
+
 ---
 layout: default
 ---
