@@ -6,53 +6,65 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>about</title>
-    <link>https://dmwasielewski.github.io/portfolio/about</link>
-    <guid>https://dmwasielewski.github.io/portfolio/about</guid>
-    <description><![CDATA[ About I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Linux</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</guid>
+    <description><![CDATA[ This section contains my Linux learning notes, command references, Fedora Atomic setup notes, terminal workflows, and practical administration topics. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Braindump</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/</guid>
-    <description><![CDATA[ This section is my personal technical knowledge base. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Homelab</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</guid>
+    <description><![CDATA[ This section contains notes about my personal lab environment, infrastructure layout, services, and experiments that support security, cloud, and administration learning. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>contact</title>
-    <link>https://dmwasielewski.github.io/portfolio/contact</link>
-    <guid>https://dmwasielewski.github.io/portfolio/contact</guid>
-    <description><![CDATA[ Contact If you would like to connect or review my work, the best places to reach me are below. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Windows</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/</guid>
+    <description><![CDATA[ This section contains my Windows administration notes, support references, and practical knowledge for desktop and endpoint troubleshooting. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Home</title>
-    <link>https://dmwasielewski.github.io/portfolio/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/</guid>
-    <description><![CDATA[ Professional Summary I am building a focused technical portfolio to document practical work in security monitoring, cloud automation, and Microsoft 365 administration. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Networking</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/</guid>
+    <description><![CDATA[ This section contains my networking notes covering core concepts, practical lab work, and references that support security, Linux, and cloud learning. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>cloud-lab</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/cloud-lab</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/cloud-lab</guid>
-    <description><![CDATA[ Dual-Cloud Serverless Deployment with Terraform Role Fit This project is best aligned with junior Cloud Engineer roles that mention AWS or Azure exposure, infrastructure as code, CI/CD, and troubleshooting. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Security</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</guid>
+    <description><![CDATA[ This section contains my security notes focused on beginner-friendly blue-team learning, SOC concepts, detection basics, and lab documentation. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Projects</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/</guid>
-    <description><![CDATA[ This portfolio currently highlights three selected technical projects. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Cloud</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</guid>
+    <description><![CDATA[ This section contains my cloud notes for AWS, Azure, infrastructure as code, and practical deployment learning. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>m365-lab</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/m365-lab</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/m365-lab</guid>
-    <description><![CDATA[ Microsoft 365 Joiner, Mover, Leaver and Endpoint Onboarding Lab Role Fit This project is best aligned with Microsoft 365, IT Support, and Modern Workplace roles. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Microsoft</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</guid>
+    <description><![CDATA[ This section contains my Microsoft ecosystem notes focused on Microsoft 365, Entra ID, Intune, Teams, SharePoint, and practical support administration. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>soc-lab</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/soc-lab</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/soc-lab</guid>
-    <description><![CDATA[ Home SOC Lab Role Fit This project is best aligned with SOC Analyst and Security Analyst roles. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Git</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/7-Git/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/7-Git/</guid>
+    <description><![CDATA[ This section contains my Git and GitHub notes, including version control basics, repository workflows, and portfolio publishing steps. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Scripting</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/</guid>
+    <description><![CDATA[ This section contains my scripting notes for Bash, PowerShell, Python basics, and automation ideas that support administration and technical work. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Troubleshooting</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/</guid>
+    <description><![CDATA[ This section contains troubleshooting notes, diagnostic workflows, and practical fixes gathered while working through labs, systems, and support tasks. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
