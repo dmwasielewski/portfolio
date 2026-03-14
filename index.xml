@@ -12,59 +12,59 @@
     <description><![CDATA[ I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Home</title>
-    <link>https://dmwasielewski.github.io/portfolio/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/</guid>
-    <description><![CDATA[ Professional Summary I am building a focused technical portfolio to document practical work in security monitoring, cloud automation, and Microsoft 365 administration. ]]></description>
+    <title>0. Command management</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/0.-Command-management</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/0.-Command-management</guid>
+    <description><![CDATA[ Command Management Summary This note is a quick reference for command history and command reuse in the shell. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Projects</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/</guid>
-    <description><![CDATA[ This portfolio currently highlights three selected technical projects. ]]></description>
+    <title>1. Navigation</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/1.-Navigation</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/1.-Navigation</guid>
+    <description><![CDATA[ Navigation Summary This note is a quick reference for basic shell navigation. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Linux</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</guid>
-    <description><![CDATA[ This section contains my Linux learning notes, command references, Fedora Atomic setup notes, terminal workflows, and practical administration topics. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>4. Search</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/4.-Search</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/4.-Search</guid>
+    <description><![CDATA[ Search Summary This note is a quick reference for finding text and files in the shell. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Homelab</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</guid>
-    <description><![CDATA[ This section contains notes about my personal lab environment, infrastructure layout, services, and experiments that support security, cloud, and administration learning. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>5. Viewing content</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/5.-Viewing-content</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/5.-Viewing-content</guid>
+    <description><![CDATA[ Viewing Content Summary This note is a quick reference for reading files, logs, and command output in the terminal. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Windows</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/</guid>
-    <description><![CDATA[ This section contains my Windows administration notes, support references, and practical knowledge for desktop and endpoint troubleshooting. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>6. Process management</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/6.-Process-management</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/6.-Process-management</guid>
+    <description><![CDATA[ Process Management Summary This note is a quick reference for checking and controlling running processes. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Networking</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/</guid>
-    <description><![CDATA[ This section contains my networking notes covering core concepts, practical lab work, and references that support security, Linux, and cloud learning. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>7. Networking</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/7.-Networking</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/7.-Networking</guid>
+    <description><![CDATA[ Networking Summary This note is a quick reference for basic network inspection commands. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Security</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</guid>
-    <description><![CDATA[ This section contains my security notes focused on beginner-friendly blue-team learning, SOC concepts, detection basics, and lab documentation. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>9. Container Commands</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</guid>
+    <description><![CDATA[ Container Commands Summary This note is a quick reference for the container-related command layer used around Fedora Atomic. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Cloud</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</guid>
-    <description><![CDATA[ This section contains my cloud notes for AWS, Azure, infrastructure as code, and practical deployment learning. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>index</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</guid>
+    <description><![CDATA[ Fedora SWAY Atomic Commands Summary This section is a quick reference for commands used around Fedora Atomic, terminal work, containers, and system inspection. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Microsoft</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</guid>
-    <description><![CDATA[ This section contains my Microsoft ecosystem notes focused on Microsoft 365, Entra ID, Intune, Teams, SharePoint, and practical support administration. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <title>Fedora SWAY Atomic</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Concepts/Fedora-SWAY-Atomic</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Concepts/Fedora-SWAY-Atomic</guid>
+    <description><![CDATA[ Fedora SWAY Atomic Summary Fedora SWAY Atomic is an immutable Fedora-based system built around a read-only style base OS, Wayland-only Sway desktop workflow, and a strong separation between system layers. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
