@@ -80,11 +80,59 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Commands/Homelab-Checks-and-Reference</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Lab-Architecture-and-Service-Boundaries</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Proxmox,-VMs,-and-LXCs</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/What-a-Homelab-Is-For</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Guides/Adding-a-New-Service-to-the-Lab</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Commands/Windows-Admin-Checks-and-Reference</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Concepts/How-Windows-Support-Thinking-Works</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Concepts/Local-Device-vs-Managed-Device-Context</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Concepts/Users,-Services,-and-Event-Logs</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Guides/Basic-Windows-Troubleshooting-Workflow</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Commands/Network-Commands</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -158,8 +206,35 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/IAM,-Roles,-and-Least-Privilege</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Infrastructure-as-Code-and-State</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Logging,-Monitoring,-and-Operational-Visibility</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Shared-Responsibility-in-Cloud</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Guides/Basic-Cloud-Deployment-Workflow</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Commands/Admin-Checks-and-Reference</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -168,6 +243,9 @@
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/How-the-Microsoft-Admin-Ecosystem-Fits-Together</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Licensing,-Access,-and-Assignment</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Users,-Groups,-and-Identity-in-Entra-ID</loc>
@@ -254,8 +332,32 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Commands/Diagnostic-Checks-Reference</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Concepts/Evidence,-Assumptions,-and-Hypotheses</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Concepts/Safe-Changes-and-Rollback-Thinking</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Concepts/Symptoms,-Causes,-and-Root-Cause</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Guides/General-Troubleshooting-Workflow</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
