@@ -6,6 +6,24 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>about</title>
+    <link>https://dmwasielewski.github.io/portfolio/about</link>
+    <guid>https://dmwasielewski.github.io/portfolio/about</guid>
+    <description><![CDATA[ I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://dmwasielewski.github.io/portfolio/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/</guid>
+    <description><![CDATA[ Professional Summary I am building a focused technical portfolio to document practical work in security monitoring, cloud automation, and Microsoft 365 administration. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Projects</title>
+    <link>https://dmwasielewski.github.io/portfolio/projects/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/projects/</guid>
+    <description><![CDATA[ This portfolio currently highlights three selected technical projects. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Linux</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</guid>
@@ -46,24 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</guid>
     <description><![CDATA[ This section contains my Microsoft ecosystem notes focused on Microsoft 365, Entra ID, Intune, Teams, SharePoint, and practical support administration. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Git</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/7-Git/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/7-Git/</guid>
-    <description><![CDATA[ This section contains my Git and GitHub notes, including version control basics, repository workflows, and portfolio publishing steps. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Scripting</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/</guid>
-    <description><![CDATA[ This section contains my scripting notes for Bash, PowerShell, Python basics, and automation ideas that support administration and technical work. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Troubleshooting</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/</guid>
-    <description><![CDATA[ This section contains troubleshooting notes, diagnostic workflows, and practical fixes gathered while working through labs, systems, and support tasks. ]]></description>
     <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
