@@ -134,6 +134,9 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/Events,-Alerts,-and-Detections</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/False-Positives-and-Tuning</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/Log-Sources-and-Telemetry</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -146,6 +149,9 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Basic-Alert-Triage</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Investigation-Workflow</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -155,8 +161,32 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Commands/Admin-Checks-and-Reference</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/How-the-Microsoft-Admin-Ecosystem-Fits-Together</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Users,-Groups,-and-Identity-in-Entra-ID</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/What-Intune-Is-For</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Guides/Basic-User-Lifecycle-Workflow</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/Commands/Git-Commands</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -191,8 +221,38 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Commands/Script-Building-Blocks</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Concepts/Bash-vs-PowerShell-vs-Python</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Concepts/Inputs,-Outputs,-and-Exit-Codes</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Concepts/Parsing-Text-and-Output</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Concepts/Variables,-Arguments,-and-Control-Flow</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Concepts/What-Scripting-Is-Good-For</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Guides/Writing-Safe-Small-Scripts</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
