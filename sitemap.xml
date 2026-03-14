@@ -95,10 +95,16 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Concepts/DNS,-DHCP,-and-Default-Gateway</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Concepts/Firewalls-and-Allowed-Ports</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Concepts/IP-Addressing-and-Subnets</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Concepts/Ports,-Protocols,-and-Layers</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Concepts/Routing-and-NAT</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Concepts/</loc>
@@ -107,14 +113,44 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Guides/Basic-Connectivity-Checks</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Guides/DNS-Troubleshooting</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Guides/Firewall-Troubleshooting</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/Guides/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/3-Networking/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Commands/Investigation-Commands</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Commands/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/Events,-Alerts,-and-Detections</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/Log-Sources-and-Telemetry</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/What-a-SIEM-Does</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Basic-Alert-Triage</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</loc>
-    <lastmod>2026-03-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
