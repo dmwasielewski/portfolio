@@ -12,6 +12,12 @@
     <description><![CDATA[ I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Podman</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Podman</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Podman</guid>
+    <description><![CDATA[ Summary Podman is a container engine used to run, inspect, and manage containers without relying on a central daemon. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Home</title>
     <link>https://dmwasielewski.github.io/portfolio/</link>
     <guid>https://dmwasielewski.github.io/portfolio/</guid>
@@ -58,12 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</guid>
     <description><![CDATA[ This section contains my cloud notes for AWS, Azure, infrastructure as code, and practical deployment learning. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Microsoft</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/</guid>
-    <description><![CDATA[ This section contains my Microsoft ecosystem notes focused on Microsoft 365, Entra ID, Intune, Teams, SharePoint, and practical support administration. ]]></description>
     <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
