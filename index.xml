@@ -12,6 +12,12 @@
     <description><![CDATA[ I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Podman Backlinks Example</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Podman-Backlinks-Example</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Podman-Backlinks-Example</guid>
+    <description><![CDATA[ Podman Backlinks Example This note exists only to demonstrate an incoming link for the Podman example note. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Podman</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Podman</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Podman</guid>
@@ -58,12 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</guid>
     <description><![CDATA[ This section contains my security notes focused on beginner-friendly blue-team learning, SOC concepts, detection basics, and lab documentation. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Cloud</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</guid>
-    <description><![CDATA[ This section contains my cloud notes for AWS, Azure, infrastructure as code, and practical deployment learning. ]]></description>
     <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
