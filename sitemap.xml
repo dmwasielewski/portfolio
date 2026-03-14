@@ -2,34 +2,52 @@
     <loc>https://dmwasielewski.github.io/portfolio/about</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/0.-Command-management</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Linux-Admin-Checks-and-Reference</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/1.-Navigation</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/10.-System-Info</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Filesystem,-Paths,-and-FHS</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Permissions,-Ownership,-and-sudo</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Processes,-Services,-and-systemd</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Command-management</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Container-Commands</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/File-management</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/3.-File-management</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Git-Commands</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Navigation</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Networking</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Process-management</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Search</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/System-Info</loc>
     <lastmod>2026-03-13T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/4.-Search</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/5.-Viewing-content</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/6.-Process-management</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/7.-Networking</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/8.-Git-Commands</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Viewing-content</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</loc>
@@ -62,19 +80,25 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Guides/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/1.-Apps--and--Session</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/Apps--and--Session</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/2.-Terminal</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/Terminal</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/3.-Tiling</loc>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/Tiling</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Shortcuts/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Guides/Safe-Linux-Diagnostics</loc>
+    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Guides/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/</loc>

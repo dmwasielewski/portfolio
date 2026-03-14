@@ -12,58 +12,58 @@
     <description><![CDATA[ I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>0. Command management</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/0.-Command-management</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/0.-Command-management</guid>
-    <description><![CDATA[ Command Management Summary This note is a quick reference for command history and command reuse in the shell. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>1. Navigation</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/1.-Navigation</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/1.-Navigation</guid>
-    <description><![CDATA[ Navigation Summary This note is a quick reference for basic shell navigation. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>4. Search</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/4.-Search</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/4.-Search</guid>
-    <description><![CDATA[ Search Summary This note is a quick reference for finding text and files in the shell. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>5. Viewing content</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/5.-Viewing-content</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/5.-Viewing-content</guid>
-    <description><![CDATA[ Viewing Content Summary This note is a quick reference for reading files, logs, and command output in the terminal. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>6. Process management</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/6.-Process-management</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/6.-Process-management</guid>
-    <description><![CDATA[ Process Management Summary This note is a quick reference for checking and controlling running processes. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>7. Networking</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/7.-Networking</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/7.-Networking</guid>
-    <description><![CDATA[ Networking Summary This note is a quick reference for basic network inspection commands. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>8. Git Commands</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/8.-Git-Commands</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/8.-Git-Commands</guid>
-    <description><![CDATA[ Git Commands Summary This note is a short Atomic-specific Git reference. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>9. Container Commands</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</guid>
-    <description><![CDATA[ Container Commands Summary This note is a quick reference for the container-related command layer used around Fedora Atomic. ]]></description>
+    <title>Linux Admin Checks and Reference</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Linux-Admin-Checks-and-Reference</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Linux-Admin-Checks-and-Reference</guid>
+    <description><![CDATA[ Linux Admin Checks and Reference Summary This note is a quick reference for the kinds of checks that often support Linux administration and troubleshooting. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>index</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</guid>
-    <description><![CDATA[ Fedora SWAY Atomic Commands Summary This section is a quick reference for commands used around Fedora Atomic, terminal work, containers, and system inspection. ]]></description>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/</guid>
+    <description><![CDATA[ Linux Reference Summary This section is for quick Linux reference notes that support admin work, troubleshooting, and daily terminal use. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Filesystem, Paths, and FHS</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Filesystem,-Paths,-and-FHS</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Filesystem,-Paths,-and-FHS</guid>
+    <description><![CDATA[ Filesystem, Paths, and FHS Summary This note explains how to think about the Linux filesystem, paths, and the basic idea of the filesystem hierarchy standard. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Permissions, Ownership, and sudo</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Permissions,-Ownership,-and-sudo</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Permissions,-Ownership,-and-sudo</guid>
+    <description><![CDATA[ Permissions, Ownership, and sudo Summary This note explains how permissions, file ownership, and sudo fit together in Linux. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Processes, Services, and systemd</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Processes,-Services,-and-systemd</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Processes,-Services,-and-systemd</guid>
+    <description><![CDATA[ Processes, Services, and systemd Summary This note explains how to think about running processes, background services, and the role of systemd in Linux systems. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/</guid>
+    <description><![CDATA[ Linux Concepts Summary This section is for the core ideas behind Linux administration and troubleshooting. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Command management</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Command-management</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Command-management</guid>
+    <description><![CDATA[ Command Management Summary This note is a quick reference for command history and command reuse in the shell. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Container Commands</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Container-Commands</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Container-Commands</guid>
+    <description><![CDATA[ Container Commands Summary This note is a quick reference for the container-related command layer used around Fedora Atomic. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Git Commands</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Git-Commands</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/Git-Commands</guid>
+    <description><![CDATA[ Git Commands Summary This note is a short Atomic-specific Git reference. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
