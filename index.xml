@@ -48,6 +48,12 @@
     <description><![CDATA[ Networking Summary This note is a quick reference for basic network inspection commands. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>8. Git Commands</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/8.-Git-Commands</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/8.-Git-Commands</guid>
+    <description><![CDATA[ Git Commands Summary This note is a short Atomic-specific Git reference. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>9. Container Commands</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/9.-Container-Commands</guid>
@@ -58,12 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Commands/</guid>
     <description><![CDATA[ Fedora SWAY Atomic Commands Summary This section is a quick reference for commands used around Fedora Atomic, terminal work, containers, and system inspection. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Fedora SWAY Atomic</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Concepts/Fedora-SWAY-Atomic</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Fedora-SWAY-Atomic/Concepts/Fedora-SWAY-Atomic</guid>
-    <description><![CDATA[ Fedora SWAY Atomic Summary Fedora SWAY Atomic is an immutable Fedora-based system built around a read-only style base OS, Wayland-only Sway desktop workflow, and a strong separation between system layers. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
