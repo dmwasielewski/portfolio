@@ -6,17 +6,17 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>About</title>
+    <link>https://dmwasielewski.github.io/portfolio/about</link>
+    <guid>https://dmwasielewski.github.io/portfolio/about</guid>
+    <description><![CDATA[  Photo space A future portrait can live here without changing the whole layout. Technical portfolio, practical labs, calm problem solving. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Contact</title>
     <link>https://dmwasielewski.github.io/portfolio/contact</link>
     <guid>https://dmwasielewski.github.io/portfolio/contact</guid>
     <description><![CDATA[  Get in touch! If you’d like to talk about my work, a role, a project, or just say hello, you can reach me through any of the channels below. ]]></description>
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>About</title>
-    <link>https://dmwasielewski.github.io/portfolio/about</link>
-    <guid>https://dmwasielewski.github.io/portfolio/about</guid>
-    <description><![CDATA[ I am building a technical portfolio focused on practical work across cybersecurity, cloud infrastructure, and Microsoft 365 administration. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Linux Admin Checks and Reference</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Linux-Admin-Checks-and-Reference</link>
