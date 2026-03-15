@@ -24,7 +24,7 @@
     <description><![CDATA[ Linux Admin Checks and Reference Summary This note is a quick reference for the kinds of checks that often support Linux administration and troubleshooting. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>index</title>
+    <title>Linux Reference</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/</guid>
     <description><![CDATA[ Linux Reference Summary This section is for quick Linux reference notes that support admin work, troubleshooting, and daily terminal use. ]]></description>
@@ -48,7 +48,7 @@
     <description><![CDATA[ Processes, Services, and systemd Summary This note explains how to think about running processes, background services, and the role of systemd in Linux systems. ]]></description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>index</title>
+    <title>Linux Concepts</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/</guid>
     <description><![CDATA[ Linux Concepts Summary This section is for the core ideas behind Linux administration and troubleshooting. ]]></description>
