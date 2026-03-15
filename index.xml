@@ -48,6 +48,12 @@
     <description><![CDATA[ Search Summary This note is a quick reference for finding text and files in the shell. ]]></description>
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>System Info</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/System-Info</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/System-Info</guid>
+    <description><![CDATA[ System Info Summary This note is a quick reference for identifying the current Linux system, checking runtime state, and confirming a few basic host details before you go deeper into troubleshooting. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Viewing content</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Viewing-content</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Viewing-content</guid>
@@ -58,12 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Symlink</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Symlink</guid>
     <description><![CDATA[ Symlink 1. Goal Understand what ln -s does on Linux, when to use it, and how to verify it safely from the terminal. 2. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Contact</title>
-    <link>https://dmwasielewski.github.io/portfolio/contact</link>
-    <guid>https://dmwasielewski.github.io/portfolio/contact</guid>
-    <description><![CDATA[  Get in touch! If you’d like to talk about my work, a role, a project, or just say hello, you can reach me through any of the channels below. ]]></description>
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
