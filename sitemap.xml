@@ -257,6 +257,9 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Logging,-Monitoring,-and-Operational-Visibility</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Secrets-and-Configuration-in-Cloud-Deployments</loc>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Shared-Responsibility-in-Cloud</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -332,11 +335,14 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/Concepts/Merges,-Pull-Requests,-and-Remote-Branches</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/Concepts/Rebase-vs-Merge</loc>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/Concepts/Undo,-Restore,-Reset,-and-Revert</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/Concepts/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/Guides/Git-Setup</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -345,7 +351,7 @@
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/7-Git/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/8-Scripting/Commands/Script-Building-Blocks</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>

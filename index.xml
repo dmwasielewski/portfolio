@@ -54,16 +54,16 @@
     <description><![CDATA[ Cloud Identity, Service Principals, and Managed Identities Summary This note explains the difference between human identity, workload identity, and cloud-managed identity. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Secrets and Configuration in Cloud Deployments</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Secrets-and-Configuration-in-Cloud-Deployments</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Secrets-and-Configuration-in-Cloud-Deployments</guid>
+    <description><![CDATA[ Secrets and Configuration in Cloud Deployments Summary This note explains the difference between ordinary configuration and sensitive secrets in cloud deployments. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Terraform State, Backends, and Locking</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</guid>
     <description><![CDATA[ Terraform State, Backends, and Locking Summary This note explains what Terraform state is, why backends matter, and why locking exists. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Cloud Concepts</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</guid>
-    <description><![CDATA[ Summary This section is for the mental models behind cloud work. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
