@@ -113,6 +113,9 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Commands/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</loc>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Lab-Architecture-and-Service-Boundaries</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -123,7 +126,7 @@
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Guides/Adding-a-New-Service-to-the-Lab</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -132,7 +135,7 @@
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/2-Windows/Commands/Windows-Admin-Checks-and-Reference</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -224,14 +227,17 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Basic-Alert-Triage</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</loc>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Investigation-Workflow</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</loc>
     <lastmod>2026-03-17T00:00:00.000Z</lastmod>

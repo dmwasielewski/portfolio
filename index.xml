@@ -6,6 +6,42 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Homelab Network Topology</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</guid>
+    <description><![CDATA[ Homelab Network Topology Summary This note explains the network layout behind the lab environment. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Homelab Concepts</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/</guid>
+    <description><![CDATA[ Summary This section is for the mental models behind the lab environment. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Homelab</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</guid>
+    <description><![CDATA[  Summary This section contains notes about my personal lab environment, infrastructure layout, services, and experiments that support security, cloud, and administration learning. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Detection Validation and Rule Tuning Workflow</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</guid>
+    <description><![CDATA[ Detection Validation and Rule Tuning Workflow Summary This note describes a simple workflow for validating a detection and tuning it when the result is weak, noisy, or unclear. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Security Guides</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</guid>
+    <description><![CDATA[ Summary This section is for practical blue-team workflows. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Security</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</guid>
+    <description><![CDATA[  Summary This section contains my security notes focused on beginner-friendly blue-team learning, SOC concepts, detection basics, and lab documentation. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Cloud Workflow Reference</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</guid>
@@ -28,42 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</guid>
     <description><![CDATA[ Summary This section is for the mental models behind cloud work. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Cloud</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</guid>
-    <description><![CDATA[  Summary This section contains my cloud notes for AWS, Azure, infrastructure as code, and practical deployment learning. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Common Microsoft Admin Centres and When To Use Each</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</guid>
-    <description><![CDATA[ Common Microsoft Admin Centres and When To Use Each Summary This note explains which Microsoft admin centre is usually the right starting point for a given type of task. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>License Assignment vs Group Membership vs App Access</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/License-Assignment-vs-Group-Membership-vs-App-Access</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/License-Assignment-vs-Group-Membership-vs-App-Access</guid>
-    <description><![CDATA[ License Assignment vs Group Membership vs App Access Summary This note separates three things that are easy to blend together in Microsoft support work: licence assignment, group membership, and actual app access. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Teams and SharePoint Support Basics</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Guides/Teams-and-SharePoint-Support-Basics</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Guides/Teams-and-SharePoint-Support-Basics</guid>
-    <description><![CDATA[ Teams and SharePoint Support Basics Summary This note is a basic workflow for first-pass Teams and SharePoint support. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Diagnostic Checks Reference</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Commands/Diagnostic-Checks-Reference</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Commands/Diagnostic-Checks-Reference</guid>
-    <description><![CDATA[ Diagnostic Checks Reference Summary This note is a quick reminder of common diagnostic checks that support troubleshooting across systems and services. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>M365-endpoint</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/M365-endpoint</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/M365-endpoint</guid>
-    <description><![CDATA[ Microsoft 365 Joiner, Mover, Leaver and Endpoint Onboarding Lab Role Fit This project is best aligned with Microsoft 365, IT Support, and Modern Workplace roles. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
