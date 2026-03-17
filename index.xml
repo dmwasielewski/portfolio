@@ -6,6 +6,12 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Cloud Workflow Reference</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</guid>
+    <description><![CDATA[ Cloud Workflow Reference Summary This note is a lightweight reminder of the checks and workflow stages that often support small cloud deployments and operations work. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Common Microsoft Admin Centres and When To Use Each</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</guid>
@@ -24,6 +30,30 @@
     <description><![CDATA[ Teams and SharePoint Support Basics Summary This note is a basic workflow for first-pass Teams and SharePoint support. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Diagnostic Checks Reference</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Commands/Diagnostic-Checks-Reference</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/9-Troubleshooting/Commands/Diagnostic-Checks-Reference</guid>
+    <description><![CDATA[ Diagnostic Checks Reference Summary This note is a quick reminder of common diagnostic checks that support troubleshooting across systems and services. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>M365-endpoint</title>
+    <link>https://dmwasielewski.github.io/portfolio/projects/M365-endpoint</link>
+    <guid>https://dmwasielewski.github.io/portfolio/projects/M365-endpoint</guid>
+    <description><![CDATA[ Microsoft 365 Joiner, Mover, Leaver and Endpoint Onboarding Lab Role Fit This project is best aligned with Microsoft 365, IT Support, and Modern Workplace roles. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>SIEM-monitoring</title>
+    <link>https://dmwasielewski.github.io/portfolio/projects/SIEM-monitoring</link>
+    <guid>https://dmwasielewski.github.io/portfolio/projects/SIEM-monitoring</guid>
+    <description><![CDATA[ Home SOC Lab Role Fit This project is best aligned with SOC Analyst and Security Analyst roles. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>cloud-serverless</title>
+    <link>https://dmwasielewski.github.io/portfolio/projects/cloud-serverless</link>
+    <guid>https://dmwasielewski.github.io/portfolio/projects/cloud-serverless</guid>
+    <description><![CDATA[ Dual-Cloud Serverless Deployment with Terraform Role Fit This project is best aligned with junior Cloud Engineer roles that mention AWS or Azure exposure, infrastructure as code, CI/CD, and troubleshooting. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>About</title>
     <link>https://dmwasielewski.github.io/portfolio/about</link>
     <guid>https://dmwasielewski.github.io/portfolio/about</guid>
@@ -34,36 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Command-management</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Command-management</guid>
     <description><![CDATA[ Command Management Summary This note is a quick reference for command history and command reuse in the shell. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>File management</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/File-management</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/File-management</guid>
-    <description><![CDATA[ File management Summary This note is a quick reference for basic file and directory handling in the shell. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Navigation</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Navigation</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Navigation</guid>
-    <description><![CDATA[ Navigation Summary This note is a quick reference for basic shell navigation. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Networking</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Networking</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Networking</guid>
-    <description><![CDATA[ Networking Summary This note is a quick reference for basic network inspection commands. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Process management</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Process-management</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Process-management</guid>
-    <description><![CDATA[ Process Management Summary This note is a quick reference for checking and controlling running processes. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Search</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Search</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Search</guid>
-    <description><![CDATA[ Search Summary This note is a quick reference for finding text and files in the shell. ]]></description>
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
