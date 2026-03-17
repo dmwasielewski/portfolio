@@ -6,6 +6,12 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Core Services Map</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Core-Services-Map</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Core-Services-Map</guid>
+    <description><![CDATA[ Core Services Map Summary This note maps the main service roles inside the homelab. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Homelab Network Topology</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</guid>
@@ -30,6 +36,12 @@
     <description><![CDATA[ Detection Validation and Rule Tuning Workflow Summary This note describes a simple workflow for validating a detection and tuning it when the result is weak, noisy, or unclear. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Severity, Escalation, and When To Hand Off</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Severity,-Escalation,-and-When-To-Hand-Off</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Severity,-Escalation,-and-When-To-Hand-Off</guid>
+    <description><![CDATA[ Severity, Escalation, and When To Hand Off Summary This note explains how to think about alert severity, escalation, and when a case should be handed off rather than held too long. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Security Guides</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</guid>
@@ -52,18 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</guid>
     <description><![CDATA[ Cloud Identity, Service Principals, and Managed Identities Summary This note explains the difference between human identity, workload identity, and cloud-managed identity. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Secrets and Configuration in Cloud Deployments</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Secrets-and-Configuration-in-Cloud-Deployments</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Secrets-and-Configuration-in-Cloud-Deployments</guid>
-    <description><![CDATA[ Secrets and Configuration in Cloud Deployments Summary This note explains the difference between ordinary configuration and sensitive secrets in cloud deployments. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Terraform State, Backends, and Locking</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</guid>
-    <description><![CDATA[ Terraform State, Backends, and Locking Summary This note explains what Terraform state is, why backends matter, and why locking exists. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
