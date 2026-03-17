@@ -6,10 +6,28 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Common Microsoft Admin Centres and When To Use Each</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</guid>
+    <description><![CDATA[ Common Microsoft Admin Centres and When To Use Each Summary This note explains which Microsoft admin centre is usually the right starting point for a given type of task. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>License Assignment vs Group Membership vs App Access</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/License-Assignment-vs-Group-Membership-vs-App-Access</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/License-Assignment-vs-Group-Membership-vs-App-Access</guid>
+    <description><![CDATA[ License Assignment vs Group Membership vs App Access Summary This note separates three things that are easy to blend together in Microsoft support work: licence assignment, group membership, and actual app access. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Teams and SharePoint Support Basics</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Guides/Teams-and-SharePoint-Support-Basics</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Guides/Teams-and-SharePoint-Support-Basics</guid>
+    <description><![CDATA[ Teams and SharePoint Support Basics Summary This note is a basic workflow for first-pass Teams and SharePoint support. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>About</title>
     <link>https://dmwasielewski.github.io/portfolio/about</link>
     <guid>https://dmwasielewski.github.io/portfolio/about</guid>
-    <description><![CDATA[  Photo space A future portrait can live here without changing the whole layout. Technical portfolio, practical labs, problem solving. ]]></description>
+    <description><![CDATA[  Photo space A future portrait. Technical portfolio, practical labs, problem solving. Hi, I&#039;m Damian. ]]></description>
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Command management</title>
@@ -46,24 +64,6 @@
     <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Search</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Search</guid>
     <description><![CDATA[ Search Summary This note is a quick reference for finding text and files in the shell. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>System Info</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/System-Info</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/System-Info</guid>
-    <description><![CDATA[ System Info Summary This note is a quick reference for identifying the current Linux system, checking runtime state, and confirming a few basic host details before you go deeper into troubleshooting. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Viewing content</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Viewing-content</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Viewing-content</guid>
-    <description><![CDATA[ Viewing Content Summary This note is a quick reference for reading files, logs, and command output in the terminal. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Symlink</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Symlink</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Concepts/Symlink</guid>
-    <description><![CDATA[ Symlink 1. Goal Understand what ln -s does on Linux, when to use it, and how to verify it safely from the terminal. 2. ]]></description>
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
