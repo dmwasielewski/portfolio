@@ -12,6 +12,30 @@
     <description><![CDATA[ Cloud Workflow Reference Summary This note is a lightweight reminder of the checks and workflow stages that often support small cloud deployments and operations work. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Cloud Identity, Service Principals, and Managed Identities</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</guid>
+    <description><![CDATA[ Cloud Identity, Service Principals, and Managed Identities Summary This note explains the difference between human identity, workload identity, and cloud-managed identity. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Terraform State, Backends, and Locking</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</guid>
+    <description><![CDATA[ Terraform State, Backends, and Locking Summary This note explains what Terraform state is, why backends matter, and why locking exists. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Cloud Concepts</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</guid>
+    <description><![CDATA[ Summary This section is for the mental models behind cloud work. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Cloud</title>
+    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</link>
+    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</guid>
+    <description><![CDATA[  Summary This section contains my cloud notes for AWS, Azure, infrastructure as code, and practical deployment learning. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Common Microsoft Admin Centres and When To Use Each</title>
     <link>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</link>
     <guid>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Concepts/Common-Microsoft-Admin-Centres-and-When-To-Use-Each</guid>
@@ -41,30 +65,6 @@
     <guid>https://dmwasielewski.github.io/portfolio/projects/M365-endpoint</guid>
     <description><![CDATA[ Microsoft 365 Joiner, Mover, Leaver and Endpoint Onboarding Lab Role Fit This project is best aligned with Microsoft 365, IT Support, and Modern Workplace roles. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>SIEM-monitoring</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/SIEM-monitoring</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/SIEM-monitoring</guid>
-    <description><![CDATA[ Home SOC Lab Role Fit This project is best aligned with SOC Analyst and Security Analyst roles. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>cloud-serverless</title>
-    <link>https://dmwasielewski.github.io/portfolio/projects/cloud-serverless</link>
-    <guid>https://dmwasielewski.github.io/portfolio/projects/cloud-serverless</guid>
-    <description><![CDATA[ Dual-Cloud Serverless Deployment with Terraform Role Fit This project is best aligned with junior Cloud Engineer roles that mention AWS or Azure exposure, infrastructure as code, CI/CD, and troubleshooting. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>About</title>
-    <link>https://dmwasielewski.github.io/portfolio/about</link>
-    <guid>https://dmwasielewski.github.io/portfolio/about</guid>
-    <description><![CDATA[  Photo space A future portrait. Technical portfolio, practical labs, problem solving. Hi, I&#039;m Damian. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Command management</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Command-management</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/1-Linux/Commands/Command-management</guid>
-    <description><![CDATA[ Command Management Summary This note is a quick reference for command history and command reuse in the shell. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

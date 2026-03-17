@@ -239,6 +239,9 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</loc>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/IAM,-Roles,-and-Least-Privilege</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
@@ -251,8 +254,11 @@
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Shared-Responsibility-in-Cloud</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Terraform-State,-Backends,-and-Locking</loc>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Guides/Basic-Cloud-Deployment-Workflow</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -261,7 +267,7 @@
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dmwasielewski.github.io/portfolio/braindump/6-Microsoft/Commands/Admin-Checks-and-Reference</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
