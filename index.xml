@@ -7,44 +7,44 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Verdict</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/00-verdict</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/00-verdict</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/00-verdict</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/00-verdict</guid>
     <description><![CDATA[ Final Verdict Yes. This project is good for interview if it stays small, ticket-led, and honest about being a home lab built in a trial tenant. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>UK Role Alignment</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/01-role-alignment-uk</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/01-role-alignment-uk</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/01-role-alignment-uk</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/01-role-alignment-uk</guid>
     <description><![CDATA[ Summary This project is designed to match the day-to-day shape of junior UK roles that mention Microsoft 365, Entra ID, Intune, Windows endpoints, and support workflows. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Final Project Scope</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/02-final-project-scope</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/02-final-project-scope</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/02-final-project-scope</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/02-final-project-scope</guid>
     <description><![CDATA[ Summary The final version of this project is a small, ticket-driven Microsoft 365 endpoint support lab built in one tenant with one Windows 11 endpoint. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Ticket Scenarios</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/04-ticket-scenarios</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/04-ticket-scenarios</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/04-ticket-scenarios</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/04-ticket-scenarios</guid>
     <description><![CDATA[ Summary These ticket scenarios are the core of the project. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Evidence Checklist</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/05-evidence-checklist</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/05-evidence-checklist</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/05-evidence-checklist</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/05-evidence-checklist</guid>
     <description><![CDATA[ Summary Capture only evidence that proves the workflow. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Interview Pack</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/06-interview-pack</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/06-interview-pack</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/06-interview-pack</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/06-interview-pack</guid>
     <description><![CDATA[ Summary This interview pack is designed to help explain the project clearly in 10-15 minutes without overselling it. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>CV Bullets</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/07-cv-bullets</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/docs/07-cv-bullets</guid>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/07-cv-bullets</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/07-cv-bullets</guid>
     <description><![CDATA[ 3 Credible CV Bullets Built a small Microsoft 365 endpoint support home lab in a trial tenant using one Windows 11 VM, covering user onboarding, Microsoft Entra join, Intune enrollment, basic policy assignment, app deployment, and access removal. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
@@ -54,15 +54,15 @@
     <description><![CDATA[ Summary This project is a small, interview-defensible Microsoft 365 endpoint support lab. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>KB - Failed Sign-In</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/kb/failed-sign-in</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/kb/failed-sign-in</guid>
+    <title>Knowledge Base - Failed Sign-In</title>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/failed-sign-in</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/failed-sign-in</guid>
     <description><![CDATA[ Symptom The user reports that they cannot sign in to Microsoft 365 and receives a sign-in failure. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>KB - Non-Compliant Device</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/kb/non-compliant-device</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/kb/non-compliant-device</guid>
+    <title>Knowledge Base - Non-Compliant Device</title>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/non-compliant-device</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/non-compliant-device</guid>
     <description><![CDATA[ Symptom W11-M365-ENDP01 shows as non-compliant or stops showing the expected compliant result in Intune. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item>
