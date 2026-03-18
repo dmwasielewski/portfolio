@@ -48,7 +48,7 @@
     <description><![CDATA[ 3 Credible CV Bullets Built a small Microsoft 365 endpoint support home lab in a trial tenant using one Windows 11 VM, covering user onboarding, Microsoft Entra join, Intune enrollment, basic policy assignment, app deployment, and access removal. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Ticket-Driven Microsoft 365 Endpoint Support Lab</title>
+    <title>Microsoft 365 Endpoint Support</title>
     <link>https://www.dmwasielewski.me/projects/M365-Endpoint/</link>
     <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/</guid>
     <description><![CDATA[ Summary This project is a small, interview-defensible Microsoft 365 endpoint support lab. ]]></description>
