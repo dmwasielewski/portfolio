@@ -2,67 +2,67 @@
 <rss version="2.0">
     <channel>
       <title>dmwasielewski</title>
-      <link>https://dmwasielewski.github.io/portfolio</link>
+      <link>https://www.dmwasielewski.me</link>
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Core Services Map</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Core-Services-Map</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Core-Services-Map</guid>
+    <link>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Core-Services-Map</link>
+    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Core-Services-Map</guid>
     <description><![CDATA[ Core Services Map Summary This note maps the main service roles inside the homelab. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Homelab Network Topology</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/Homelab-Network-Topology</guid>
+    <link>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Homelab-Network-Topology</link>
+    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Homelab-Network-Topology</guid>
     <description><![CDATA[ Homelab Network Topology Summary This note explains the network layout behind the lab environment. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Homelab Concepts</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/Concepts/</guid>
+    <link>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/</link>
+    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/</guid>
     <description><![CDATA[ Summary This section is for the mental models behind the lab environment. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Homelab</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/10-Homelab/</guid>
+    <link>https://www.dmwasielewski.me/braindump/10-Homelab/</link>
+    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/</guid>
     <description><![CDATA[  Summary This section contains notes about my personal lab environment, infrastructure layout, services, and experiments that support security, cloud, and administration learning. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Detection Validation and Rule Tuning Workflow</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</guid>
+    <link>https://www.dmwasielewski.me/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</link>
+    <guid>https://www.dmwasielewski.me/braindump/4-Security/Guides/Detection-Validation-and-Rule-Tuning-Workflow</guid>
     <description><![CDATA[ Detection Validation and Rule Tuning Workflow Summary This note describes a simple workflow for validating a detection and tuning it when the result is weak, noisy, or unclear. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Severity, Escalation, and When To Hand Off</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Severity,-Escalation,-and-When-To-Hand-Off</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/Severity,-Escalation,-and-When-To-Hand-Off</guid>
+    <link>https://www.dmwasielewski.me/braindump/4-Security/Guides/Severity,-Escalation,-and-When-To-Hand-Off</link>
+    <guid>https://www.dmwasielewski.me/braindump/4-Security/Guides/Severity,-Escalation,-and-When-To-Hand-Off</guid>
     <description><![CDATA[ Severity, Escalation, and When To Hand Off Summary This note explains how to think about alert severity, escalation, and when a case should be handed off rather than held too long. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Security Guides</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/Guides/</guid>
+    <link>https://www.dmwasielewski.me/braindump/4-Security/Guides/</link>
+    <guid>https://www.dmwasielewski.me/braindump/4-Security/Guides/</guid>
     <description><![CDATA[ Summary This section is for practical blue-team workflows. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Security</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/4-Security/</guid>
+    <link>https://www.dmwasielewski.me/braindump/4-Security/</link>
+    <guid>https://www.dmwasielewski.me/braindump/4-Security/</guid>
     <description><![CDATA[  Summary This section contains my security notes focused on beginner-friendly blue-team learning, SOC concepts, detection basics, and lab documentation. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Cloud Workflow Reference</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</guid>
+    <link>https://www.dmwasielewski.me/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</link>
+    <guid>https://www.dmwasielewski.me/braindump/5-Cloud/Commands/Cloud-Workflow-Reference</guid>
     <description><![CDATA[ Cloud Workflow Reference Summary This note is a lightweight reminder of the checks and workflow stages that often support small cloud deployments and operations work. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Cloud Identity, Service Principals, and Managed Identities</title>
-    <link>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</link>
-    <guid>https://dmwasielewski.github.io/portfolio/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</guid>
+    <link>https://www.dmwasielewski.me/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</link>
+    <guid>https://www.dmwasielewski.me/braindump/5-Cloud/Concepts/Cloud-Identity,-Service-Principals,-and-Managed-Identities</guid>
     <description><![CDATA[ Cloud Identity, Service Principals, and Managed Identities Summary This note explains the difference between human identity, workload identity, and cloud-managed identity. ]]></description>
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item>
