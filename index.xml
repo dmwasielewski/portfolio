@@ -6,6 +6,30 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Attacker to Victim Rule Validation</title>
+    <link>https://www.dmwasielewski.me/projects/OPNsense-Firewall-Lab/documentation/attacker-victim-log-analysis</link>
+    <guid>https://www.dmwasielewski.me/projects/OPNsense-Firewall-Lab/documentation/attacker-victim-log-analysis</guid>
+    <description><![CDATA[ Summary This scenario validates a simple but useful firewall workflow: one host attempts to reach another host through OPNsense, the firewall rule set decides the outcome, and the result is verified in logs. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>OPNsense Firewall Lab</title>
+    <link>https://www.dmwasielewski.me/projects/OPNsense-Firewall-Lab/</link>
+    <guid>https://www.dmwasielewski.me/projects/OPNsense-Firewall-Lab/</guid>
+    <description><![CDATA[ Summary This project documents a small OPNsense lab built to practise firewalling, segmentation thinking, and basic security monitoring. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Wazuh FIM Validation</title>
+    <link>https://www.dmwasielewski.me/projects/SIEM-Monitoring/documentation/wazuh-fim-validation</link>
+    <guid>https://www.dmwasielewski.me/projects/SIEM-Monitoring/documentation/wazuh-fim-validation</guid>
+    <description><![CDATA[ Summary This scenario validates one simple Wazuh File Integrity Monitoring alert from beginning to end. The point is not to simulate a breach. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Home SOC Lab</title>
+    <link>https://www.dmwasielewski.me/projects/SIEM-Monitoring/</link>
+    <guid>https://www.dmwasielewski.me/projects/SIEM-Monitoring/</guid>
+    <description><![CDATA[ Summary This project is a small home SOC lab built to show practical security monitoring rather than product installation. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Verdict</title>
     <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/00-verdict</link>
     <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/00-verdict</guid>
@@ -41,30 +65,6 @@
     <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/failed-sign-in</guid>
     <description><![CDATA[ What This Article Is For This knowledge base article is written for the kind of failed sign-in case that fits the scope of this lab and the safe boundary of beginner support practice. ]]></description>
     <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Knowledge Base - Non-Compliant Device</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/non-compliant-device</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/non-compliant-device</guid>
-    <description><![CDATA[ What This Article Is For This article is for the simple non-compliant device scenario used in this lab. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Core Services Map</title>
-    <link>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Core-Services-Map</link>
-    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Core-Services-Map</guid>
-    <description><![CDATA[ Core Services Map Summary This note maps the main service roles inside the homelab. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Homelab Network Topology</title>
-    <link>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Homelab-Network-Topology</link>
-    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/Homelab-Network-Topology</guid>
-    <description><![CDATA[ Homelab Network Topology Summary This note explains the network layout behind the lab environment. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Homelab Concepts</title>
-    <link>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/</link>
-    <guid>https://www.dmwasielewski.me/braindump/10-Homelab/Concepts/</guid>
-    <description><![CDATA[ Summary This section is for the mental models behind the lab environment. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
