@@ -30,12 +30,6 @@
     <description><![CDATA[ Summary This project is a small home SOC lab built to show practical security monitoring rather than product installation. ]]></description>
     <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Verdict</title>
-    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/00-verdict</link>
-    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/00-verdict</guid>
-    <description><![CDATA[ Final Verdict This project is good for interview use if it stays exactly what it claims to be: a small, home-lab Microsoft 365 endpoint support project built in a trial tenant to practise realistic junior workflows. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-  </item><item>
     <title>UK Role Alignment</title>
     <link>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/01-role-alignment-uk</link>
     <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/documentation/01-role-alignment-uk</guid>
@@ -64,6 +58,12 @@
     <link>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/failed-sign-in</link>
     <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/failed-sign-in</guid>
     <description><![CDATA[ What This Article Is For This knowledge base article is written for the kind of failed sign-in case that fits the scope of this lab and the safe boundary of beginner support practice. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Knowledge Base - Non-Compliant Device</title>
+    <link>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/non-compliant-device</link>
+    <guid>https://www.dmwasielewski.me/projects/M365-Endpoint/knowledge-base/non-compliant-device</guid>
+    <description><![CDATA[ What This Article Is For This article is for the simple non-compliant device scenario used in this lab. ]]></description>
     <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
