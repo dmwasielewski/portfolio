@@ -7,32 +7,26 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/prompt-master/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/prompt-master/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/prompt-master/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/prompt-master/SKILL</guid>
     <description><![CDATA[ Generates optimized prompts for any AI tool. Use when writing, fixing, improving, or adapting a prompt for LLM, Cursor, Midjourney, image AI, video AI, coding agents, or any other AI tool. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/process-interviewer/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/process-interviewer/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/process-interviewer/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/process-interviewer/SKILL</guid>
     <description><![CDATA[ Relentless process interviewer that extracts a complete, unambiguous plan from the user's head before any building begins. Use when the user wants to plan a complex task, design a process, build a skill, create a workflow, scope a project, or says things like "I want to build", "let's plan", "help me think through", "I have an idea for", "scope this out", "interview me", "help me figure out the process", "I need a skill that", or any variation where the user has a fuzzy idea that needs to be sharpened into a concrete plan. Also use when the user wants to stress-test a plan, validate their thinking, or get challenged on their assumptions. If the user's goal is to build a skill, this interviewer will automatically create it after the interview is complete. ALWAYS use this skill before jumping into building anything complex. Even if the user seems confident, the interview reveals gaps they didn't know they had. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/openrouter/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/openrouter/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/openrouter/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/openrouter/SKILL</guid>
     <description><![CDATA[ OpenRouter API - Unified access to 400+ AI models through one API ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/mcp-builder/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/mcp-builder/SKILL</guid>
-    <description><![CDATA[ Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
-  </item><item>
-    <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/humanizer/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/humanizer/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/humanizer/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/humanizer/SKILL</guid>
     <description><![CDATA[ Remove signs of AI-generated writing from text. Use when editing or reviewing
 text to make it sound more natural and human-written. Based on Wikipedia's
 comprehensive "Signs of AI writing" guide. Detects and fixes patterns including:
@@ -42,40 +36,46 @@ parallelisms, and excessive conjunctive phrases.
 
 Credits: Original skill by @blader - github.com/blader/humanizer
  ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/find-skills/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/find-skills/SKILL</guid>
-    <description><![CDATA[ Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/mcp-builder/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/mcp-builder/SKILL</guid>
+    <description><![CDATA[ Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). ]]></description>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/frontend-slides/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/frontend-slides/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/frontend-slides/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/frontend-slides/SKILL</guid>
     <description><![CDATA[ Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/file-organizer/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/file-organizer/SKILL</guid>
-    <description><![CDATA[ Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/find-skills/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/find-skills/SKILL</guid>
+    <description><![CDATA[ Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/fact-checker/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/fact-checker/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/fact-checker/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/fact-checker/SKILL</guid>
     <description><![CDATA[ Systematic fact verification and misinformation identification using evidence-based analysis.
 Use when: verifying claims, checking facts, identifying misinformation, evaluating source credibility,
 or when user asks to "fact check", "verify", "is this true", or mentions claims that need validation.
  ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/ai-skills/meta-skills/deep-research/SKILL</link>
-    <guid>https://www.dmwasielewski.me/ai-skills/meta-skills/deep-research/SKILL</guid>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/file-organizer/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/file-organizer/SKILL</guid>
+    <description><![CDATA[ Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
+  </item><item>
+    <title>SKILL</title>
+    <link>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/deep-research/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/ai-skills/meta-skills/deep-research/SKILL</guid>
     <description><![CDATA[ This skill should be used when conducting comprehensive research on any topic using the OpenAI Deep Research API. It automates prompt enhancement through interactive clarifying questions, saves research parameters, and executes deep research with web search capabilities. Use when the user asks for in-depth analysis, investigation, research summaries, or topic exploration. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 20:06:04 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 20:16:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
