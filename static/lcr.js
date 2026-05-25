@@ -1,4 +1,4 @@
-(function(){
+﻿(function(){
 function escHtml(s){
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -9,7 +9,12 @@ function initLcr(){
   var dataEl=document.getElementById('lcr-data');
   if(!dataEl) return;
   var DATA;
-  try{ DATA=JSON.parse(dataEl.textContent||dataEl.innerHTML); }
+  try{
+    var raw=dataEl.textContent||dataEl.innerHTML;
+    // Quartz entity-encodes " as &quot; inside <script> elements — decode before parsing
+    var tmp=document.createElement('textarea');tmp.innerHTML=raw;
+    DATA=JSON.parse(tmp.value);
+  }
   catch(e){ console.error('lcr: data parse failed',e); return; }
 
   var totalCmds=DATA.reduce(function(s,c){return s+c.cmds.length;},0);
