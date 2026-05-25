@@ -11,6 +11,9 @@
     <loc>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Admin-Checks-and-Reference</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</loc>
+    <lastmod>2026-05-25T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Navigation</loc>
     <lastmod>2026-03-15T00:00:00.000Z</lastmod>
   </url><url>
@@ -30,7 +33,7 @@
     <lastmod>2026-03-15T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/1-Linux/Commands/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-25T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/1-Linux/Concepts/Filesystem,-Paths,-and-FHS</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>
@@ -141,79 +144,79 @@
     <lastmod>2026-03-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/consolidate-memory/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.645Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.201Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/doc-coauthoring/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.645Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.201Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/docx/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.645Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.202Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/</loc>
     <lastmod>2026-04-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/pdf/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.647Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.206Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/pptx/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.648Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.206Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/schedule/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.650Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.209Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/setup-cowork/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.650Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.210Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/skill-creator/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.651Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.211Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/xlsx/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.652Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.213Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/</loc>
     <lastmod>2026-04-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/agent-browser/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.654Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.216Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/audio-transcriber/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.656Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.218Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/decision-toolkit/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.657Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.220Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/deep-research/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.658Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.222Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/fact-checker/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.659Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.223Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/file-organizer/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.660Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.224Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/find-skills/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.660Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.225Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/frontend-slides/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.661Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.225Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/humanizer/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.662Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.227Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/</loc>
     <lastmod>2026-04-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/mcp-builder/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.663Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.229Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/openrouter/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.664Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.230Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/process-interviewer/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.666Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.232Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/prompt-master/SKILL</loc>
-    <lastmod>2026-05-25T11:58:01.667Z</lastmod>
+    <lastmod>2026-05-25T12:18:04.234Z</lastmod>
   </url><url>
     <loc>https://www.dmwasielewski.me/braindump/2-Windows/Commands/Windows-Admin-Checks-and-Reference</loc>
     <lastmod>2026-03-14T00:00:00.000Z</lastmod>

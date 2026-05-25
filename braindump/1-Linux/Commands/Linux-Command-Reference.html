@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Linux Command Reference</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="dmwasielewski"/><meta property="og:title" content="Linux Command Reference"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Linux Command Reference"/><meta name="twitter:description" content="Linux Command Reference Auto-generated from data/commands.md — do not edit directly."/><meta property="og:description" content="Linux Command Reference Auto-generated from data/commands.md — do not edit directly."/><meta property="og:image:alt" content="Linux Command Reference Auto-generated from data/commands.md — do not edit directly."/><meta property="twitter:domain" content="www.dmwasielewski.me"/><meta property="og:url" content="https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference"/><meta property="twitter:url" content="https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference"/><link rel="icon" href="../../../static/icon.svg"/><meta name="description" content="Linux Command Reference Auto-generated from data/commands.md — do not edit directly."/><meta name="generator" content="Quartz"/><link href="../../../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvT2JzaWRpYW4vT2JzaWRpYW4vX3NpdGUtYnVpbGRlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.dmwasielewski.me/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference-og-image.webp"/><meta property="og:image:url" content="https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference-og-image.webp"/><meta name="twitter:image" content="https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="braindump/1-Linux/Commands/Linux-Command-Reference"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../.."><span class="page-title__dm">dm</span><span class="page-title__name">wasielewski</span></a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="false" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-12"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-12" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><div class="file-row"><a href="#" class="file-icon-link" data-preserve-state="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="file-icon"><path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"></path><path d="M14 2v5h5"></path></svg></a><a href="#" class="file-title-link"><span class="file-title"></span></a></div></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><g class="folder-closed-shape"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8.5a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5z"></path></g><g class="folder-open-shape"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v1"></path><path d="M3 10.5h18l-1.6 7.2A2.5 2.5 0 0 1 16.96 20H5.64a2.5 2.5 0 0 1-2.44-3.05z"></path></g></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../braindump/">Braindump</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../braindump/1-Linux/">Linux</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../braindump/1-Linux/Commands/">Linux Commands Reference</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Linux Command Reference</a></div></nav><h1 class="article-title">Linux Command Reference</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T00:00:00.000Z">25 May 2026</time><span>15 min read</span></p><ul class="tags"><li><a href="../../../tags/wiki" class="internal tag-link">wiki</a></li><li><a href="../../../tags/linux" class="internal tag-link">linux</a></li><li><a href="../../../tags/commands" class="internal tag-link">commands</a></li><li><a href="../../../tags/reference" class="internal tag-link">reference</a></li></ul></div></div><article class="popover-hint"><h1 id="linux-command-reference">Linux Command Reference<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#linux-command-reference" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>Auto-generated from <a href="../../../data/commands" class="internal" data-slug="data/commands"><code>data/commands.md</code></a> — do not edit directly.
+To update: edit <code>data/commands.md</code>, then run <code>node data/generate-www.mjs</code>.</p>
+</blockquote>
+<p>252 commands across 17 categories.</p>
+<p><a href="#basic" class="internal alias">Basic Commands</a> · <a href="#files" class="internal alias">File Management</a> · <a href="#viewing" class="internal alias">Viewing Files</a> · <a href="#text" class="internal alias">Text Processing</a> · <a href="#archive" class="internal alias">Archiving &amp; Compression</a> · <a href="#scripting" class="internal alias">Scripting &amp; Redirection</a> · <a href="#env" class="internal alias">Environment Variables</a> · <a href="#perms" class="internal alias">Permissions &amp; Users</a> · <a href="#process" class="internal alias">Process Management</a> · <a href="#system" class="internal alias">System Info &amp; Services</a> · <a href="#network" class="internal alias">Networking</a> · <a href="#ssh" class="internal alias">SSH &amp; Remote</a> · <a href="#packages" class="internal alias">Package Management</a> · <a href="#git" class="internal alias">Git Version Control</a> · <a href="#docker" class="internal alias">Docker</a> · <a href="#vim" class="internal alias">Vim Editor</a> · <a href="#tmux" class="internal alias">Tmux</a></p>
+<hr/>
+<h2 id="basic-commands-basic">Basic Commands {#basic}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#basic-commands-basic" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>pwd</code></td><td>Print the full path of your current working directory</td></tr><tr><td><code>ls</code></td><td>List all files and folders in the current directory</td></tr><tr><td><code>ls -la</code></td><td>List all files with details; -l long format, -a includes hidden files</td></tr><tr><td><code>ls -lah</code></td><td>List all files with details; -l long, -a hidden, -h human-readable sizes</td></tr><tr><td><code>cd /path/to/dir</code></td><td>Change your location to a specific folder path</td></tr><tr><td><code>cd ~</code></td><td>Go directly to your home directory from anywhere</td></tr><tr><td><code>cd ..</code></td><td>Go up one level to the parent directory</td></tr><tr><td><code>cd -</code></td><td>Switch back to the previous directory you were in</td></tr><tr><td><code>whoami</code></td><td>Display the username of the currently logged-in user</td></tr><tr><td><code>hostname</code></td><td>Show the name of the current machine on the network</td></tr><tr><td><code>date</code></td><td>Display the current date and time of the system</td></tr><tr><td><code>uptime</code></td><td>Show how long the system has been running since last boot</td></tr><tr><td><code>clear</code></td><td>Clear all text from the terminal screen</td></tr><tr><td><code>exit</code></td><td>Close the current terminal session or shell</td></tr><tr><td><code>man &lt;command></code></td><td>Open the built-in manual page for any command</td></tr><tr><td><code>which &lt;command></code></td><td>Show the full file path of a command’s executable</td></tr><tr><td><code>history</code></td><td>Display a numbered list of recently used commands</td></tr><tr><td><code>!!</code></td><td>Repeat the last command — useful for re-running with sudo</td></tr><tr><td><code>!&lt;number></code></td><td>Re-run a specific command by its history number, e.g. !42</td></tr><tr><td><code>Tab</code></td><td>Auto-complete commands, file names, and paths in the terminal</td></tr><tr><td><code>Ctrl+R</code></td><td>Search backwards through command history as you type</td></tr></tbody></table></div>
+<h2 id="file-management-files">File Management {#files}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#file-management-files" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>touch filename.txt</code></td><td>Create a new empty file or update its last-modified timestamp</td></tr><tr><td><code>mkdir dirname</code></td><td>Create a new empty directory with the given name</td></tr><tr><td><code>mkdir -p path/to/dir</code></td><td>Create directory and all missing parents; -p prevents errors if they exist</td></tr><tr><td><code>cp file.txt /destination/</code></td><td>Copy a file to another location, keeping the original</td></tr><tr><td><code>cp -r dir/ /destination/</code></td><td>Copy a folder and all its contents; -r recursive through all subfolders</td></tr><tr><td><code>mv old.txt new.txt</code></td><td>Rename a file or move it to a different directory</td></tr><tr><td><code>rm file.txt</code></td><td>Permanently delete a file — no recycle bin</td></tr><tr><td><code>rm -i file.txt</code></td><td>Delete a file with confirmation prompt; -i interactive asks before each removal</td></tr><tr><td><code>rm -r directory/</code></td><td>Delete a folder and everything inside; -r recursive removes all subfolders</td></tr><tr><td><code>rmdir dirname</code></td><td>Remove an empty directory — fails if it contains any files</td></tr><tr><td><code>ln -s /source /link</code></td><td>Create a symbolic link; -s soft link that points to the original path</td></tr><tr><td><code>tree</code></td><td>Display the full directory structure as a visual tree</td></tr><tr><td><code>tree -L 2</code></td><td>Show the directory tree; -L limits depth to 2 levels</td></tr><tr><td><code>find /path -name &quot;*.txt&quot;</code></td><td>Search for files matching a name pattern inside a directory</td></tr><tr><td><code>find /path -size +10M</code></td><td>Find files larger than 10 MB; + means greater than the given size</td></tr><tr><td><code>locate filename</code></td><td>Quickly search for a file using a pre-built index database</td></tr><tr><td><code>du -sh /path</code></td><td>Show folder size; -s summary total only, -h human-readable format</td></tr><tr><td><code>du -h --max-depth=1 /var</code></td><td>Show size per subfolder; -h readable, —max-depth limits to 1 level deep</td></tr></tbody></table></div>
+<h2 id="viewing-files-viewing">Viewing Files {#viewing}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#viewing-files-viewing" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>cat file.txt</code></td><td>Print the entire contents of a file to the terminal</td></tr><tr><td><code>less file.txt</code></td><td>View a file one screen at a time — press q to quit, safer than cat for large files</td></tr><tr><td><code>head file.txt</code></td><td>Show the first 10 lines of a file</td></tr><tr><td><code>head -n 20 file.txt</code></td><td>Show the first 20 lines; -n sets how many lines to display</td></tr><tr><td><code>tail file.txt</code></td><td>Show the last 10 lines of a file</td></tr><tr><td><code>tail -n 50 file.txt</code></td><td>Show the last 50 lines; -n sets how many lines from the end</td></tr><tr><td><code>tail -f file.txt</code></td><td>Watch a file in real time; -f follow mode adds new lines as they appear</td></tr><tr><td><code>file /path/to/file</code></td><td>Detect and display the type of a file based on its content</td></tr><tr><td><code>stat file.txt</code></td><td>Show detailed metadata including size, owner, and timestamps</td></tr><tr><td><code>wc -l file.txt</code></td><td>Count lines in a file; -l line count mode</td></tr></tbody></table></div>
+<h2 id="text-processing-text">Text Processing {#text}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#text-processing-text" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>grep &quot;text&quot; file.txt</code></td><td>Search for lines containing a specific word or phrase</td></tr><tr><td><code>grep -i &quot;text&quot; file.txt</code></td><td>Search for text; -i case-insensitive ignores uppercase and lowercase</td></tr><tr><td><code>grep -r &quot;text&quot; /path/</code></td><td>Search inside all files in a directory; -r recursive through subfolders</td></tr><tr><td><code>grep -n &quot;text&quot; file.txt</code></td><td>Search and show results; -n adds the line number next to each match</td></tr><tr><td><code>grep -v &quot;text&quot; file.txt</code></td><td>Show non-matching lines; -v invert flag excludes lines that match</td></tr><tr><td><code>grep -c &quot;text&quot; file.txt</code></td><td>Count matching lines; -c count mode returns a number instead of lines</td></tr><tr><td><code>sort file.txt</code></td><td>Sort all lines in a file alphabetically from A to Z</td></tr><tr><td><code>sort -r file.txt</code></td><td>Sort lines in reverse order; -r reverses from Z to A</td></tr><tr><td><code>uniq file.txt</code></td><td>Remove consecutive duplicate lines — input must be sorted first</td></tr><tr><td><code>sort file.txt | uniq -c</code></td><td>Sort lines and count occurrences; -c prepends the repeat count</td></tr><tr><td><code>cut -d: -f1 /etc/passwd</code></td><td>Extract column from text; -d sets delimiter, -f selects field number</td></tr><tr><td><code>tr 'a-z' 'A-Z'</code></td><td>Replace characters in standard input — here converts to uppercase</td></tr><tr><td><code>sed 's/old/new/g' file.txt</code></td><td>Replace all occurrences of a word; g flag means replace globally not just first</td></tr><tr><td><code>sed -i 's/old/new/g' file.txt</code></td><td>Edit a file in-place; -i modifies the file directly without creating a copy</td></tr><tr><td><code>sed -n '5,10p' file.txt</code></td><td>Print specific lines; -n silent mode, p prints only the selected range</td></tr><tr><td><code>awk '{print $1}' file.txt</code></td><td>Print the first column of each line using whitespace as separator</td></tr><tr><td><code>awk -F: '{print $1}' /etc/passwd</code></td><td>Set field separator; -F: uses colon as delimiter then prints first column</td></tr><tr><td><code>awk '/pattern/ {print}' file.txt</code></td><td>Print only lines that match a pattern — similar to grep but more flexible</td></tr><tr><td><code>xargs command</code></td><td>Build and run commands using output from another command as arguments</td></tr><tr><td><code>cat list.txt | xargs rm</code></td><td>Read filenames from a file and delete each one using xargs as input</td></tr><tr><td><code>command1 | command2</code></td><td>Send the output of one command directly into another command</td></tr></tbody></table></div>
+<h2 id="archiving--compression-archive">Archiving &amp; Compression {#archive}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#archiving--compression-archive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>tar -czf archive.tar.gz /path/</code></td><td>Create compressed archive; -c create, -z gzip compression, -f output filename</td></tr><tr><td><code>tar -xzf archive.tar.gz</code></td><td>Extract archive; -x extract, -z decompress gzip, -f specifies the archive file</td></tr><tr><td><code>tar -tzf archive.tar.gz</code></td><td>List archive contents; -t list mode, -z gzip, -f specifies the archive file</td></tr><tr><td><code>gzip file.txt</code></td><td>Compress a file using gzip — replaces the original with a .gz file</td></tr><tr><td><code>gunzip file.txt.gz</code></td><td>Decompress a .gz file and restore it to its original form</td></tr><tr><td><code>zip archive.zip file1 file2</code></td><td>Create a zip archive containing one or more files</td></tr><tr><td><code>unzip archive.zip</code></td><td>Extract all files from a zip archive to the current folder</td></tr><tr><td><code>rsync -avz /source/ /dest/</code></td><td>Sync folders; -a archive preserves permissions, -v verbose, -z compresses transfer</td></tr><tr><td><code>rsync -avz /local/ user@server:/remote/</code></td><td>Sync to remote server over SSH; -a archive mode, -v verbose, -z compress</td></tr></tbody></table></div>
+<h2 id="scripting--redirection-scripting">Scripting &amp; Redirection {#scripting}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#scripting--redirection-scripting" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>echo &quot;Hello World&quot;</code></td><td>Print a message or variable value to the terminal</td></tr><tr><td><code>command > file.txt</code></td><td>Redirect output to a file; > overwrites any existing content</td></tr><tr><td><code>command >> file.txt</code></td><td>Append output to a file; >> adds to the end without overwriting</td></tr><tr><td><code>command 2>/dev/null</code></td><td>Discard error messages; 2> redirects stderr, /dev/null is a silent sink</td></tr><tr><td><code>command | tee file.txt</code></td><td>Show output in terminal and save it to a file at the same time</td></tr><tr><td><code>source ~/.bashrc</code></td><td>Reload your shell config file without restarting the terminal</td></tr><tr><td><code>command &amp;</code></td><td>Run a command in the background; &amp; releases the terminal immediately</td></tr><tr><td><code>nohup command &amp;</code></td><td>Run in background and keep running after logout; nohup ignores hangup signal</td></tr></tbody></table></div>
+<h2 id="environment-variables-env">Environment Variables {#env}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#environment-variables-env" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>printenv</code></td><td>Display all current environment variables and their values</td></tr><tr><td><code>printenv VAR</code></td><td>Print the value of a single specific environment variable</td></tr><tr><td><code>env</code></td><td>Show all environment variables or run a command in a clean environment</td></tr><tr><td><code>export VAR=value</code></td><td>Set an environment variable and make it available to all child processes</td></tr><tr><td><code>echo $VAR</code></td><td>Print the current value of an environment variable</td></tr><tr><td><code>unset VAR</code></td><td>Remove an environment variable from the current session</td></tr><tr><td><code>export PATH=$PATH:/new/dir</code></td><td>Add a new directory to PATH so commands inside it can be found</td></tr><tr><td><code>env -i command</code></td><td>Run a command in a completely empty environment; -i ignores all current variables</td></tr></tbody></table></div>
+<h2 id="permissions--users-perms">Permissions &amp; Users {#perms}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#permissions--users-perms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>id</code></td><td>Show your user ID, group ID, and all group memberships</td></tr><tr><td><code>groups</code></td><td>List all groups the current user belongs to</td></tr><tr><td><code>sudo &lt;command></code></td><td>Run a command with administrator privileges</td></tr><tr><td><code>su username</code></td><td>Switch to another user account in the current terminal</td></tr><tr><td><code>chmod 755 file.sh</code></td><td>Set permissions using numbers; 7=rwx owner, 5=rx group, 5=rx others</td></tr><tr><td><code>chmod u+x file.sh</code></td><td>Add execute permission; u=user owner, + adds, x execute right</td></tr><tr><td><code>chown user:group file.txt</code></td><td>Change the owner and group of a file</td></tr><tr><td><code>chown -R user:group dir/</code></td><td>Change ownership recursively; -R applies to all files inside the folder</td></tr><tr><td><code>umask 022</code></td><td>Set default permissions for new files — 022 blocks group and other write</td></tr><tr><td><code>getfacl file.txt</code></td><td>View the detailed access control list for a file</td></tr><tr><td><code>setfacl -m u:user:rwx file.txt</code></td><td>Grant specific user access; -m modify, u:user targets that user</td></tr><tr><td><code>sudo adduser username</code></td><td>Create a new user account on the system</td></tr><tr><td><code>sudo deluser username</code></td><td>Remove a user account from the system</td></tr><tr><td><code>passwd username</code></td><td>Change the password for a specific user account</td></tr><tr><td><code>visudo</code></td><td>Safely edit the sudoers file to manage admin privileges</td></tr><tr><td><code>cat /etc/passwd</code></td><td>View all user accounts, their home directories, and default shells</td></tr><tr><td><code>cat /etc/group</code></td><td>View all groups and their member users</td></tr></tbody></table></div>
+<h2 id="process-management-process">Process Management {#process}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#process-management-process" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>ps aux</code></td><td>Show all running processes; a all users, u detailed format, x includes background</td></tr><tr><td><code>top</code></td><td>Display live system resource usage and running processes</td></tr><tr><td><code>htop</code></td><td>Interactive process viewer with colour, sorting, and mouse support</td></tr><tr><td><code>pstree</code></td><td>Show all running processes in a tree structure grouped by parent</td></tr><tr><td><code>kill &lt;PID></code></td><td>Send a termination signal to a process using its numeric process ID</td></tr><tr><td><code>kill -9 &lt;PID></code></td><td>Force kill a process immediately; -9 sends SIGKILL which cannot be ignored</td></tr><tr><td><code>killall processname</code></td><td>Stop all running processes that match the given name</td></tr><tr><td><code>pkill -f &quot;pattern&quot;</code></td><td>Kill processes whose full command line matches a text pattern; -f matches all args</td></tr><tr><td><code>jobs</code></td><td>List all background and suspended jobs in the current session</td></tr><tr><td><code>fg %1</code></td><td>Bring job number 1 back to the foreground</td></tr><tr><td><code>bg %1</code></td><td>Resume suspended job number 1 and run it in the background</td></tr><tr><td><code>nice -n 10 command</code></td><td>Start a command with lower priority; -n sets the niceness value, higher = lower priority</td></tr></tbody></table></div>
+<h2 id="system-info--services-system">System Info &amp; Services {#system}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#system-info--services-system" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>uname -a</code></td><td>Show full system info; -a all details including kernel version and architecture</td></tr><tr><td><code>uname -r</code></td><td>Show only the running kernel version number; -r kernel release flag</td></tr><tr><td><code>cat /etc/os-release</code></td><td>Read the distribution metadata file to identify the Linux distro and version</td></tr><tr><td><code>hostnamectl</code></td><td>Show host identity, OS summary, and kernel in one command</td></tr><tr><td><code>df -h</code></td><td>Display disk space on all drives; -h human-readable sizes in GB and MB</td></tr><tr><td><code>free -h</code></td><td>Show RAM usage; -h human-readable format instead of raw bytes</td></tr><tr><td><code>lscpu</code></td><td>Display detailed information about the CPU architecture and cores</td></tr><tr><td><code>lsblk</code></td><td>List all block storage devices like hard drives and partitions</td></tr><tr><td><code>lsof</code></td><td>Show all files and network connections currently open by processes</td></tr><tr><td><code>mount /dev/sdb1 /mnt/usb</code></td><td>Mount a storage device to make its files accessible at a path</td></tr><tr><td><code>umount /mnt/usb</code></td><td>Safely unmount a storage device before physically removing it</td></tr><tr><td><code>systemctl status &lt;service></code></td><td>Check whether a service is running, stopped, or has errors</td></tr><tr><td><code>sudo systemctl start &lt;service></code></td><td>Start a service that is currently stopped</td></tr><tr><td><code>sudo systemctl stop &lt;service></code></td><td>Stop a currently running service gracefully</td></tr><tr><td><code>sudo systemctl restart &lt;service></code></td><td>Stop and immediately restart a service to apply changes</td></tr><tr><td><code>sudo systemctl enable &lt;service></code></td><td>Make a service start automatically on every system boot</td></tr><tr><td><code>sudo systemctl disable &lt;service></code></td><td>Prevent a service from starting automatically on boot</td></tr><tr><td><code>journalctl -u &lt;service></code></td><td>View log history; -u filters logs for a specific service only</td></tr><tr><td><code>journalctl -f</code></td><td>Watch logs in real time; -f follow mode streams new entries as they appear</td></tr><tr><td><code>journalctl -xe</code></td><td>Show recent log entries with full context; -x adds explanations, -e jumps to end</td></tr><tr><td><code>journalctl -b</code></td><td>Show all logs from the current boot session only; -b boot filter</td></tr><tr><td><code>crontab -e</code></td><td>Open the cron job editor to create or edit scheduled recurring tasks</td></tr><tr><td><code>crontab -l</code></td><td>List all scheduled cron jobs; -l shows the current user’s crontab</td></tr><tr><td><code>watch -n 2 command</code></td><td>Run a command repeatedly; -n 2 sets the interval to every 2 seconds</td></tr><tr><td><code>alias ll='ls -la'</code></td><td>Create a shortcut command that expands to a longer command when used</td></tr><tr><td><code>unalias ll</code></td><td>Remove a previously created command alias</td></tr></tbody></table></div>
+<h2 id="networking-network">Networking {#network}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#networking-network" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>ip addr</code></td><td>Show all network interfaces and their assigned IP addresses</td></tr><tr><td><code>ip route</code></td><td>Display the routing table and default gateway used for traffic</td></tr><tr><td><code>ping google.com</code></td><td>Test network connectivity by sending ICMP packets to a host</td></tr><tr><td><code>ping -c 4 hostname</code></td><td>Send exactly 4 packets; -c count stops automatically after that number</td></tr><tr><td><code>traceroute hostname</code></td><td>Show every network hop packets take to reach a host — useful for diagnosing slow routes</td></tr><tr><td><code>dig domain.com</code></td><td>Query DNS and show detailed records — more powerful than nslookup</td></tr><tr><td><code>dig domain.com MX</code></td><td>Query a specific DNS record type; MX shows mail server records</td></tr><tr><td><code>nslookup domain.com</code></td><td>Look up the IP address for a domain name using the DNS server</td></tr><tr><td><code>nmap -sn 192.168.1.0/24</code></td><td>Scan a network for active hosts; -sn ping scan skips port scanning</td></tr><tr><td><code>nmap -sV hostname</code></td><td>Scan open ports and detect service versions; -sV version detection mode</td></tr><tr><td><code>curl https://example.com</code></td><td>Fetch the content of a URL and print it to the terminal</td></tr><tr><td><code>curl -O https://example.com/file</code></td><td>Download a file; -O saves using the remote filename automatically</td></tr><tr><td><code>wget https://example.com/file</code></td><td>Download a file from the web to the current directory</td></tr><tr><td><code>ss -tuln</code></td><td>List open ports; -t TCP, -u UDP, -l listening only, -n numeric addresses</td></tr><tr><td><code>netstat -tuln</code></td><td>Show active connections; -t TCP, -u UDP, -l listening, -n numeric format</td></tr><tr><td><code>cat /etc/hosts</code></td><td>View the local hostname-to-IP mapping file used before DNS lookup</td></tr><tr><td><code>fail2ban-client status</code></td><td>Check which IPs have been blocked by fail2ban intrusion prevention</td></tr></tbody></table></div>
+<h2 id="ssh--remote-ssh">SSH &amp; Remote {#ssh}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ssh--remote-ssh" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>ssh user@server</code></td><td>Connect to a remote server securely over the SSH protocol</td></tr><tr><td><code>ssh -p 2222 user@server</code></td><td>Connect using a custom port; -p specifies the port number to use</td></tr><tr><td><code>ssh-keygen -t ed25519</code></td><td>Generate a new SSH key pair; -t specifies the Ed25519 algorithm</td></tr><tr><td><code>ssh-copy-id user@server</code></td><td>Copy your public SSH key to a remote server for passwordless login</td></tr><tr><td><code>scp file.txt user@server:/path/</code></td><td>Securely copy a local file to a remote server over SSH</td></tr><tr><td><code>scp user@server:/path/file.txt ./</code></td><td>Securely copy a file from a remote server to your local machine</td></tr><tr><td><code>ssh -L 8080:localhost:80 user@server</code></td><td>Forward a local port; -L tunnels local 8080 to remote port 80</td></tr></tbody></table></div>
+<h2 id="package-management-packages">Package Management {#packages}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#package-management-packages" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>sudo apt update</code></td><td>Refresh the list of available packages and their latest versions</td></tr><tr><td><code>sudo apt upgrade</code></td><td>Install all available updates for packages currently on the system</td></tr><tr><td><code>sudo apt update &amp;&amp; sudo apt upgrade</code></td><td>Refresh package list and install all updates in one single step</td></tr><tr><td><code>sudo apt install &lt;package></code></td><td>Download and install a package from the official repository</td></tr><tr><td><code>sudo apt remove &lt;package></code></td><td>Remove a package but keep its configuration files on disk</td></tr><tr><td><code>sudo apt purge &lt;package></code></td><td>Remove a package and delete all its configuration files completely</td></tr><tr><td><code>apt search &lt;package></code></td><td>Search for packages by name or keyword in the repository</td></tr><tr><td><code>apt list --installed</code></td><td>Show all packages currently installed on the system</td></tr><tr><td><code>apt show &lt;package></code></td><td>Display detailed information about a package before installing</td></tr><tr><td><code>sudo dnf install &lt;package></code></td><td>Install a package using DNF on Fedora and Red Hat systems</td></tr><tr><td><code>sudo pacman -S &lt;package></code></td><td>Install a package using Pacman; -S sync from the Arch repository</td></tr></tbody></table></div>
+<h2 id="git-version-control-git">Git Version Control {#git}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#git-version-control-git" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>git init</code></td><td>Initialise a new Git repository in the current directory</td></tr><tr><td><code>git clone &lt;url></code></td><td>Download a remote repository and create a full local copy</td></tr><tr><td><code>git status</code></td><td>Show which files have been changed, staged, or are untracked</td></tr><tr><td><code>git add .</code></td><td>Stage all changed files in the current directory ready for commit</td></tr><tr><td><code>git add &lt;file></code></td><td>Stage a specific file only, leaving other changes unstaged</td></tr><tr><td><code>git commit -m &quot;message&quot;</code></td><td>Save staged changes; -m lets you write the commit message inline</td></tr><tr><td><code>git push</code></td><td>Upload local commits to the remote repository</td></tr><tr><td><code>git push -u origin main</code></td><td>Push and set tracking branch; -u links local branch to the remote</td></tr><tr><td><code>git pull</code></td><td>Download and merge the latest changes from the remote repository</td></tr><tr><td><code>git fetch</code></td><td>Download remote changes without merging them into your current branch</td></tr><tr><td><code>git branch</code></td><td>List all local branches; the active branch is marked with an asterisk</td></tr><tr><td><code>git branch &lt;name></code></td><td>Create a new branch with the given name without switching to it</td></tr><tr><td><code>git checkout &lt;branch></code></td><td>Switch to an existing branch</td></tr><tr><td><code>git checkout -b &lt;branch></code></td><td>Create and immediately switch to a new branch; -b create flag</td></tr><tr><td><code>git merge &lt;branch></code></td><td>Merge changes from another branch into the current one</td></tr><tr><td><code>git log --oneline</code></td><td>Show compact commit history; —oneline fits each commit on one line</td></tr><tr><td><code>git diff</code></td><td>Show line-by-line differences between working files and the last commit</td></tr><tr><td><code>git stash</code></td><td>Temporarily save uncommitted changes without making a commit</td></tr><tr><td><code>git stash pop</code></td><td>Restore the most recently stashed changes back into your working files</td></tr><tr><td><code>git reset --hard HEAD</code></td><td>Discard all uncommitted changes; —hard resets both files and staging area</td></tr><tr><td><code>git remote -v</code></td><td>List all configured remote repositories; -v verbose shows their URLs</td></tr></tbody></table></div>
+<h2 id="docker-docker">Docker {#docker}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#docker-docker" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>docker ps</code></td><td>List all currently running containers</td></tr><tr><td><code>docker ps -a</code></td><td>List all containers including stopped ones; -a shows all states</td></tr><tr><td><code>docker images</code></td><td>Show all Docker images downloaded and stored locally</td></tr><tr><td><code>docker pull &lt;image></code></td><td>Download a Docker image from Docker Hub to local storage</td></tr><tr><td><code>docker run &lt;image></code></td><td>Create and start a new container from an image</td></tr><tr><td><code>docker run -d -p 80:80 &lt;image></code></td><td>Run container in background; -d detached, -p maps host port to container port</td></tr><tr><td><code>docker run -it &lt;image> bash</code></td><td>Start container with interactive shell; -i input open, -t allocates terminal</td></tr><tr><td><code>docker stop &lt;container></code></td><td>Gracefully stop a running container by sending shutdown signal</td></tr><tr><td><code>docker start &lt;container></code></td><td>Start a container that was previously stopped</td></tr><tr><td><code>docker rm &lt;container></code></td><td>Remove a stopped container from the system permanently</td></tr><tr><td><code>docker rmi &lt;image></code></td><td>Delete a Docker image from local storage to free up disk space</td></tr><tr><td><code>docker exec -it &lt;container> bash</code></td><td>Open a shell inside a running container; -it interactive terminal mode</td></tr><tr><td><code>docker logs &lt;container></code></td><td>View the standard output and error logs of a container</td></tr><tr><td><code>docker logs -f &lt;container></code></td><td>Stream container logs in real time; -f follow mode shows new lines live</td></tr><tr><td><code>docker build -t name .</code></td><td>Build an image from a Dockerfile; -t assigns a name and tag to the image</td></tr><tr><td><code>docker-compose up -d</code></td><td>Start all services in docker-compose.yml; -d runs them in the background</td></tr><tr><td><code>docker-compose down</code></td><td>Stop and remove all containers defined in docker-compose.yml</td></tr><tr><td><code>docker volume ls</code></td><td>List all Docker volumes used for persistent container data storage</td></tr><tr><td><code>docker network ls</code></td><td>List all Docker networks available for container communication</td></tr></tbody></table></div>
+<h2 id="vim-editor-vim">Vim Editor {#vim}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vim-editor-vim" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>vim file.txt</code></td><td>Open a file in the Vim editor — starts in normal mode by default</td></tr><tr><td><code>i</code></td><td>Enter insert mode so you can start typing and editing text</td></tr><tr><td><code>Esc</code></td><td>Return to normal mode from insert or any other mode</td></tr><tr><td><code>:w</code></td><td>Save the current file without closing the editor</td></tr><tr><td><code>:q</code></td><td>Quit the editor — only works if there are no unsaved changes</td></tr><tr><td><code>:wq</code></td><td>Save the file and quit the editor in one command</td></tr><tr><td><code>:q!</code></td><td>Force quit the editor; ! discards any unsaved changes</td></tr><tr><td><code>dd</code></td><td>Delete the entire current line and copy it to the buffer</td></tr><tr><td><code>yy</code></td><td>Copy the current line into the buffer without deleting it</td></tr><tr><td><code>p</code></td><td>Paste the buffer contents below the current cursor position</td></tr><tr><td><code>u</code></td><td>Undo the last change — press multiple times to undo further</td></tr><tr><td><code>Ctrl+r</code></td><td>Redo an undone change — reverse of the undo command</td></tr><tr><td><code>/search</code></td><td>Enter search mode — type a word and press Enter to jump to it</td></tr><tr><td><code>n</code></td><td>Jump to the next match after a search — press repeatedly to cycle</td></tr><tr><td><code>:%s/old/new/g</code></td><td>Find and replace all occurrences in the file; % all lines, g all on each line</td></tr></tbody></table></div>
+<h2 id="tmux-tmux">Tmux {#tmux}<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tmux-tmux" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>tmux</code></td><td>Start a new unnamed tmux session in the current terminal</td></tr><tr><td><code>tmux new -s name</code></td><td>Start a new session with a name; -s assigns a label for easy reattaching</td></tr><tr><td><code>tmux ls</code></td><td>List all active tmux sessions with their names and status</td></tr><tr><td><code>tmux attach -t name</code></td><td>Re-attach to an existing session; -t target specifies the session name</td></tr><tr><td><code>tmux kill-session -t name</code></td><td>Terminate a session and all its windows; -t target specifies which one</td></tr><tr><td><code>Ctrl+b  →  c</code></td><td>Create a new window inside the current tmux session</td></tr><tr><td><code>Ctrl+b  →  n</code></td><td>Switch to the next window in the current session</td></tr><tr><td><code>Ctrl+b  →  p</code></td><td>Switch to the previous window in the current session</td></tr><tr><td><code>Ctrl+b  →  |</code></td><td>Split the current pane into two side-by-side panes</td></tr><tr><td><code>Ctrl+b  →  %</code></td><td>Split the current pane into two panes stacked vertically</td></tr><tr><td><code>Ctrl+b  →  arrow keys</code></td><td>Move focus between panes using the arrow keys</td></tr><tr><td><code>Ctrl+b  →  d</code></td><td>Detach from the session — it keeps running in the background</td></tr></tbody></table></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-4" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#linux-command-reference" data-for="linux-command-reference">Linux Command Reference</a></li><li class="depth-1"><a href="#basic-commands-basic" data-for="basic-commands-basic">Basic Commands {#basic}</a></li><li class="depth-1"><a href="#file-management-files" data-for="file-management-files">File Management {#files}</a></li><li class="depth-1"><a href="#viewing-files-viewing" data-for="viewing-files-viewing">Viewing Files {#viewing}</a></li><li class="depth-1"><a href="#text-processing-text" data-for="text-processing-text">Text Processing {#text}</a></li><li class="depth-1"><a href="#archiving--compression-archive" data-for="archiving--compression-archive">Archiving &amp; Compression {#archive}</a></li><li class="depth-1"><a href="#scripting--redirection-scripting" data-for="scripting--redirection-scripting">Scripting &amp; Redirection {#scripting}</a></li><li class="depth-1"><a href="#environment-variables-env" data-for="environment-variables-env">Environment Variables {#env}</a></li><li class="depth-1"><a href="#permissions--users-perms" data-for="permissions--users-perms">Permissions &amp; Users {#perms}</a></li><li class="depth-1"><a href="#process-management-process" data-for="process-management-process">Process Management {#process}</a></li><li class="depth-1"><a href="#system-info--services-system" data-for="system-info--services-system">System Info &amp; Services {#system}</a></li><li class="depth-1"><a href="#networking-network" data-for="networking-network">Networking {#network}</a></li><li class="depth-1"><a href="#ssh--remote-ssh" data-for="ssh--remote-ssh">SSH &amp; Remote {#ssh}</a></li><li class="depth-1"><a href="#package-management-packages" data-for="package-management-packages">Package Management {#packages}</a></li><li class="depth-1"><a href="#git-version-control-git" data-for="git-version-control-git">Git Version Control {#git}</a></li><li class="depth-1"><a href="#docker-docker" data-for="docker-docker">Docker {#docker}</a></li><li class="depth-1"><a href="#vim-editor-vim" data-for="vim-editor-vim">Vim Editor {#vim}</a></li><li class="depth-1"><a href="#tmux-tmux" data-for="tmux-tmux">Tmux {#tmux}</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../../braindump/1-Linux/Commands/" class="internal">Linux Commands Reference</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>© 2026 Damian Wasielewski</p></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../../postscript.js" type="module" data-persist="true"></script></html>
