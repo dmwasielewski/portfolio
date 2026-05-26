@@ -17,6 +17,7 @@ function initLcr(){
   }
   catch(e){ console.error('lcr: data parse failed',e); return; }
 
+  var sorted=DATA.slice().sort(function(a,b){return a.label.localeCompare(b.label);});
   var totalCmds=DATA.reduce(function(s,c){return s+c.cmds.length;},0);
   var totalCats=DATA.length;
   var statsEl=document.getElementById('lcr-stats');
@@ -41,12 +42,12 @@ function initLcr(){
     return b;
   }
   filtersEl.appendChild(makeBtn('all','All'));
-  DATA.forEach(function(c){filtersEl.appendChild(makeBtn(c.id,c.label));});
+  sorted.forEach(function(c){filtersEl.appendChild(makeBtn(c.id,c.label));});
 
   var contentEl=document.getElementById('lcr-content');
   if(!contentEl) return;
   contentEl.innerHTML='';
-  DATA.forEach(function(c){
+  sorted.forEach(function(c){
     var section=document.createElement('section');
     section.className='lcr-section';
     section.dataset.category=c.id;
