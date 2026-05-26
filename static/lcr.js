@@ -60,7 +60,7 @@ function initLcr(){
     c.cmds.forEach(function(row){
       var opts=row[2]||{};
       var risk=opts.risk||'safe';
-      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':'#2563eb';
+      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':'#3b82f6';
       var tr=document.createElement('tr');
       tr.innerHTML='<td style="color:'+color+'">'+escHtml(row[0])+'</td><td>'+escHtml(row[1])+'</td>';
       tbody.appendChild(tr);
