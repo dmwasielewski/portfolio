@@ -132,10 +132,19 @@ pre:hover > .expand-button {
 .lcr-section-title{font-size:0.82em;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#2563eb;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid var(--lightgray)}
 .lcr-table{width:100%;border-collapse:collapse;font-size:0.88em}
 .lcr-table td{padding:6px 10px;border-bottom:1px solid color-mix(in srgb,var(--lightgray) 72%,var(--gray) 28%);vertical-align:top}
-.lcr-table td:first-child{font-family:ui-monospace,monospace;white-space:pre;font-weight:700;width:32%}
+.lcr-table td:first-child{font-family:ui-monospace,monospace;white-space:pre;color:#3b82f6;font-weight:700;width:32%}
 .lcr-legend{display:flex;gap:14px;font-size:0.8em;color:var(--gray);flex-wrap:wrap;margin-bottom:10px;align-items:center}
 .lcr-legend-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px;vertical-align:middle}
 .lcr-row-hidden{display:none}
+.lcr-ref-toggle{display:inline-flex;align-items:center;gap:5px;margin-top:10px;padding:4px 12px;border-radius:6px;cursor:pointer;border:1px solid var(--lightgray);background:transparent;color:var(--gray);font-size:0.8em;transition:border-color .12s}
+.lcr-ref-toggle:hover{border-color:#3b82f6;color:var(--darkgray)}
+.lcr-ref-panel{margin-top:8px;padding:12px;border-radius:8px;background:var(--light);border:1px solid var(--lightgray);font-size:0.82em;line-height:1.8}
+.lcr-perm-diagram{font-family:ui-monospace,monospace;font-size:0.82em;background:var(--lightgray);padding:8px 10px;border-radius:6px;line-height:1.9;white-space:pre;margin:4px 0 10px 0}
+.lcr-ref-title{font-weight:700;color:var(--darkgray);margin:8px 0 4px 0;font-size:0.9em}
+.lcr-ref-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 20px}
+.lcr-ref-row{display:flex;align-items:baseline;gap:8px}
+.lcr-ref-row code{font-family:ui-monospace,monospace;background:var(--lightgray);padding:1px 5px;border-radius:3px;font-size:0.9em;flex-shrink:0}
+.lcr-ref-key{color:var(--gray)}
 </style>
 <div id="lcr-app">
   <div id="lcr-header">
