@@ -22,6 +22,17 @@ function initLcr(){
   var statsEl=document.getElementById('lcr-stats');
   if(statsEl) statsEl.textContent=totalCmds+' commands across '+totalCats+' categories';
 
+  // Safe colour: blue for Linux, purple for PS pages (data-theme="ps" on #lcr-app)
+  var safeColor=app.dataset.theme==='ps'?'#8b5cf6':'#3b82f6';
+
+  // Compute popular commands — data-driven: popular:true flag in JSON
+  var popularCmds=[];
+  DATA.forEach(function(cat){
+    cat.cmds.forEach(function(cmd){
+      if(cmd[2]&&cmd[2].popular) popularCmds.push(cmd);
+    });
+  });
+
   var filtersEl=document.getElementById('lcr-filters');
   if(!filtersEl) return;
   filtersEl.innerHTML='';
@@ -42,11 +53,43 @@ function initLcr(){
     return b;
   }
   filtersEl.appendChild(makeBtn('all','All',totalCmds));
+  if(popularCmds.length>0) filtersEl.appendChild(makeBtn('__popular__','⭐ Most Used',popularCmds.length));
   sorted.forEach(function(c){filtersEl.appendChild(makeBtn(c.id,c.label,c.cmds.length));});
 
   var contentEl=document.getElementById('lcr-content');
   if(!contentEl) return;
   contentEl.innerHTML='';
+
+  // Build virtual Most Used section (hidden by default)
+  var popularSection=null;
+  if(popularCmds.length>0){
+    popularSection=document.createElement('section');
+    popularSection.className='lcr-section';
+    popularSection.dataset.category='__popular__';
+    popularSection.style.display='none';
+    var ph=document.createElement('div');
+    ph.className='lcr-section-title';ph.textContent='⭐ Most Used';
+    popularSection.appendChild(ph);
+    var ptable=document.createElement('table');
+    ptable.className='lcr-table';
+    var ptbody=document.createElement('tbody');
+    popularCmds.forEach(function(row){
+      var opts=(row.length>2&&row[2])||{};
+      var risk=opts.risk||'safe';
+      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':safeColor;
+      var tr=document.createElement('tr');
+      var td1=document.createElement('td');
+      td1.style.color=color;
+      td1.textContent=row[0];
+      var td2=document.createElement('td');
+      td2.textContent=row[1]||'';
+      tr.appendChild(td1);tr.appendChild(td2);
+      ptbody.appendChild(tr);
+    });
+    ptable.appendChild(ptbody);
+    popularSection.appendChild(ptable);
+    contentEl.appendChild(popularSection);
+  }
 
   sorted.forEach(function(c){
     var section=document.createElement('section');
@@ -61,7 +104,7 @@ function initLcr(){
     c.cmds.forEach(function(row){
       var opts=(row.length>2&&row[2])||{};
       var risk=opts.risk||'safe';
-      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':'#3b82f6';
+      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':safeColor;
       var tr=document.createElement('tr');
       var td1=document.createElement('td');
       td1.style.color=color;
@@ -73,7 +116,7 @@ function initLcr(){
     });
     table.appendChild(tbody); section.appendChild(table);
 
-    // Permissions reference panel
+    // Permissions reference panel (Linux only)
     if(c.id==='perms'){
       var toggle=document.createElement('button');
       toggle.className='lcr-ref-toggle';
@@ -145,7 +188,26 @@ function initLcr(){
   function applyFilter(){
     var q=searchEl.value.trim().toLowerCase();
     var visible=0;
+
+    // Handle virtual Most Used section
+    if(popularSection){
+      if(activeFilter==='__popular__'){
+        popularSection.style.display='';
+        popularSection.querySelectorAll('tr').forEach(function(tr){
+          if(!q){tr.classList.remove('lcr-row-hidden');visible++;return;}
+          var cells=tr.querySelectorAll('td');
+          var hit=(cells[0]&&cells[0].textContent.toLowerCase().indexOf(q)>-1)||
+                  (cells[1]&&cells[1].textContent.toLowerCase().indexOf(q)>-1);
+          tr.classList.toggle('lcr-row-hidden',!hit);
+          if(hit) visible++;
+        });
+      } else {
+        popularSection.style.display='none';
+      }
+    }
+
     contentEl.querySelectorAll('.lcr-section').forEach(function(section){
+      if(section.dataset.category==='__popular__') return;
       var catOk=activeFilter==='all'||section.dataset.category===activeFilter;
       if(!catOk){section.style.display='none';return;}
       section.style.display='';
