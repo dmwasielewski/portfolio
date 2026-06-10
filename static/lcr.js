@@ -81,7 +81,7 @@ function initLcr(){
 
     // Command cell
     var td1=document.createElement('td');
-    td1.style.cssText='width:30%;max-width:30%';
+    td1.style.cssText='width:30%;max-width:30%;word-break:break-word';
     var cmdSpan=document.createElement('span');
     cmdSpan.style.cssText='font-family:ui-monospace,monospace;color:'+color+';font-weight:700;overflow-wrap:break-word';
     cmdSpan.textContent=row[0];
@@ -143,6 +143,7 @@ function initLcr(){
 
     var table=document.createElement('table');
     table.className='lcr-table';
+    table.style.tableLayout='fixed';
     var tbody=document.createElement('tbody');
     cmds.forEach(function(row){ buildRow(tbody,row,showBadge); });
     table.appendChild(tbody);
