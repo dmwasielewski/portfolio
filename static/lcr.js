@@ -78,6 +78,7 @@ function initLcr(){
     var risk=opts.risk||'safe';
     var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':safeColor;
     var tr=document.createElement('tr');
+    tr.addEventListener('click',function(){ incrementCount(row[0]); });
 
     // Command cell
     var td1=document.createElement('td');
@@ -110,7 +111,8 @@ function initLcr(){
     var btn=document.createElement('button');
     btn.className='lcr-copy';
     btn.textContent='copy';
-    btn.addEventListener('click',function(){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
       navigator.clipboard.writeText(row[0]).then(function(){
         incrementCount(row[0]);
         if(activeFilter==='__popular__') applyFilter();
@@ -241,7 +243,7 @@ function initLcr(){
       if(prevPop) prevPop.remove();
 
       if(!filtered.length){
-        if(showEl) showEl.textContent='No commands tracked yet — click copy on any command to start.';
+        if(showEl) showEl.textContent='No commands tracked yet — click any command row to start.';
         return;
       }
       if(showEl) showEl.textContent=filtered.length+' most-used commands';
