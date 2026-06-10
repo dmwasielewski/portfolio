@@ -22,16 +22,29 @@ function initLcr(){
   var statsEl=document.getElementById('lcr-stats');
   if(statsEl) statsEl.textContent=totalCmds+' commands across '+totalCats+' categories';
 
-  // Safe colour: blue for Linux, purple for PS pages (data-theme="ps" on #lcr-app)
-  var safeColor=app.dataset.theme==='ps'?'#8b5cf6':'#3b82f6';
+  // Safe colour: blue for Linux, same blue for PS (both use #3b82f6 now)
+  var safeColor='#3b82f6';
 
-  // Compute popular commands — data-driven: popular:true flag in JSON
-  var popularCmds=[];
-  DATA.forEach(function(cat){
-    cat.cmds.forEach(function(cmd){
-      if(cmd[2]&&cmd[2].popular) popularCmds.push(cmd);
+  // localStorage click-tracking
+  var STORAGE_KEY=app.dataset.theme==='ps'?'ps_cmdcounts':'lx_cmdcounts';
+  function getCounts(){
+    try{ return JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}'); }catch(e){ return {}; }
+  }
+  function incrementCount(cmd){
+    var c=getCounts(); c[cmd]=(c[cmd]||0)+1;
+    localStorage.setItem(STORAGE_KEY,JSON.stringify(c));
+  }
+  function getPopularCmds(){
+    var counts=getCounts();
+    var all=[];
+    DATA.forEach(function(cat){
+      cat.cmds.forEach(function(cmd){
+        var n=counts[cmd[0]]||0;
+        if(n>0) all.push({cmd:cmd,count:n});
+      });
     });
-  });
+    return all.sort(function(a,b){return b.count-a.count;});
+  }
 
   var filtersEl=document.getElementById('lcr-filters');
   if(!filtersEl) return;
@@ -53,68 +66,93 @@ function initLcr(){
     return b;
   }
   filtersEl.appendChild(makeBtn('all','All',totalCmds));
-  if(popularCmds.length>0) filtersEl.appendChild(makeBtn('__popular__','⭐ Most Used',popularCmds.length));
+  filtersEl.appendChild(makeBtn('__popular__','⭐ Most Used'));
   sorted.forEach(function(c){filtersEl.appendChild(makeBtn(c.id,c.label,c.cmds.length));});
 
   var contentEl=document.getElementById('lcr-content');
   if(!contentEl) return;
   contentEl.innerHTML='';
 
-  // Build virtual Most Used section (hidden by default)
-  var popularSection=null;
-  if(popularCmds.length>0){
-    popularSection=document.createElement('section');
-    popularSection.className='lcr-section';
-    popularSection.dataset.category='__popular__';
-    popularSection.style.display='none';
-    var ph=document.createElement('div');
-    ph.className='lcr-section-title';ph.textContent='⭐ Most Used';
-    popularSection.appendChild(ph);
-    var ptable=document.createElement('table');
-    ptable.className='lcr-table';
-    var ptbody=document.createElement('tbody');
-    popularCmds.forEach(function(row){
-      var opts=(row.length>2&&row[2])||{};
-      var risk=opts.risk||'safe';
-      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':safeColor;
-      var tr=document.createElement('tr');
-      var td1=document.createElement('td');
-      td1.style.color=color;
-      td1.textContent=row[0];
-      var td2=document.createElement('td');
-      td2.textContent=row[1]||'';
-      tr.appendChild(td1);tr.appendChild(td2);
-      ptbody.appendChild(tr);
+  function buildRow(tbody,row,showBadge){
+    var opts=(row.length>2&&row[2])||{};
+    var risk=opts.risk||'safe';
+    var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':safeColor;
+    var tr=document.createElement('tr');
+
+    // Command cell
+    var td1=document.createElement('td');
+    td1.style.cssText='width:30%;max-width:30%';
+    var cmdSpan=document.createElement('span');
+    cmdSpan.style.cssText='font-family:ui-monospace,monospace;color:'+color+';font-weight:700;overflow-wrap:break-word';
+    cmdSpan.textContent=row[0];
+    td1.appendChild(cmdSpan);
+    if(showBadge){
+      var counts=getCounts();
+      var n=counts[row[0]]||0;
+      if(n>0){
+        var badge=document.createElement('span');
+        badge.className='lcr-count-badge';
+        badge.textContent=String(n);
+        td1.appendChild(badge);
+      }
+    }
+    tr.appendChild(td1);
+
+    // Description cell
+    var td2=document.createElement('td');
+    td2.style.cssText='padding-left:10px;font-size:0.87em;color:var(--gray)';
+    td2.textContent=row[1]||'';
+    tr.appendChild(td2);
+
+    // Copy button cell
+    var td3=document.createElement('td');
+    td3.style.cssText='width:52px;text-align:right';
+    var btn=document.createElement('button');
+    btn.className='lcr-copy';
+    btn.textContent='copy';
+    btn.addEventListener('click',function(){
+      navigator.clipboard.writeText(row[0]).then(function(){
+        incrementCount(row[0]);
+        if(activeFilter==='__popular__') applyFilter();
+        btn.textContent='✓';
+        btn.classList.add('lcr-copy-ok');
+        setTimeout(function(){ btn.textContent='copy'; btn.classList.remove('lcr-copy-ok'); },1500);
+      }).catch(function(){});
     });
-    ptable.appendChild(ptbody);
-    popularSection.appendChild(ptable);
-    contentEl.appendChild(popularSection);
+    td3.appendChild(btn);
+    tr.appendChild(td3);
+
+    tbody.appendChild(tr);
   }
 
-  sorted.forEach(function(c){
-    var section=document.createElement('section');
+  function buildSection(label,cmds,showBadge){
+    var section=document.createElement('div');
     section.className='lcr-section';
-    section.dataset.category=c.id;
-    var h=document.createElement('div');
-    h.className='lcr-section-title'; h.textContent=c.label;
-    section.appendChild(h);
+
+    // Header bar: category name + count
+    var hdr=document.createElement('div');
+    hdr.className='lcr-section-title';
+    var nameSpan=document.createElement('span');
+    nameSpan.textContent=label;
+    var countSpan=document.createElement('span');
+    countSpan.className='lcr-ct-count';
+    countSpan.textContent=cmds.length+' commands';
+    hdr.appendChild(nameSpan);
+    hdr.appendChild(countSpan);
+    section.appendChild(hdr);
+
     var table=document.createElement('table');
     table.className='lcr-table';
     var tbody=document.createElement('tbody');
-    c.cmds.forEach(function(row){
-      var opts=(row.length>2&&row[2])||{};
-      var risk=opts.risk||'safe';
-      var color=risk==='destructive'?'#ef4444':risk==='caution'?'#f59e0b':safeColor;
-      var tr=document.createElement('tr');
-      var td1=document.createElement('td');
-      td1.style.color=color;
-      td1.textContent=row[0];
-      var td2=document.createElement('td');
-      td2.textContent=row[1]||'';
-      tr.appendChild(td1);tr.appendChild(td2);
-      tbody.appendChild(tr);
-    });
-    table.appendChild(tbody); section.appendChild(table);
+    cmds.forEach(function(row){ buildRow(tbody,row,showBadge); });
+    table.appendChild(tbody);
+    section.appendChild(table);
+    return section;
+  }
+
+  sorted.forEach(function(c){
+    var section=buildSection(c.label,c.cmds,false);
+    section.dataset.category=c.id;
 
     // Permissions reference panel (Linux only)
     if(c.id==='perms'){
@@ -138,7 +176,6 @@ function initLcr(){
         '│ │   └────── Group:   r-- = read only\n'+
         '│ └────────── Owner:   rw- = read + write\n'+
         '└──────────── Type:    see below';
-
       panel.appendChild(diag);
 
       function refSection(title,rows){
@@ -154,7 +191,6 @@ function initLcr(){
         });
         panel.appendChild(g);
       }
-
       refSection('File type (1st character)',[
         ['-','Regular file'],['d','Directory'],['l','Symbolic link'],
         ['b','Block device (disk)'],['c','Character device (tty)'],
@@ -171,7 +207,6 @@ function initLcr(){
         ['rw-------','600 — private file, owner r/w only'],
         ['rwxrwxrwx','777 — everyone full access (avoid!)']
       ]);
-
       section.appendChild(toggle);
       section.appendChild(panel);
     }
@@ -189,44 +224,60 @@ function initLcr(){
     var q=searchEl.value.trim().toLowerCase();
     var visible=0;
 
-    // Handle virtual Most Used section
-    if(popularSection){
-      if(activeFilter==='__popular__'){
-        popularSection.style.display='';
-        popularSection.querySelectorAll('tr').forEach(function(tr){
-          if(!q){tr.classList.remove('lcr-row-hidden');visible++;return;}
-          var cells=tr.querySelectorAll('td');
-          var hit=(cells[0]&&cells[0].textContent.toLowerCase().indexOf(q)>-1)||
-                  (cells[1]&&cells[1].textContent.toLowerCase().indexOf(q)>-1);
-          tr.classList.toggle('lcr-row-hidden',!hit);
-          if(hit) visible++;
-        });
-      } else {
-        popularSection.style.display='none';
+    contentEl.querySelectorAll('.lcr-section').forEach(function(section){
+      section.style.display='none';
+    });
+
+    if(activeFilter==='__popular__'){
+      var popular=getPopularCmds();
+      var filtered=popular.filter(function(e){
+        return !q||e.cmd[0].toLowerCase().indexOf(q)>-1||(e.cmd[1]&&e.cmd[1].toLowerCase().indexOf(q)>-1);
+      });
+      var showEl=document.getElementById('lcr-showing');
+
+      // Remove previous popular section if any
+      var prevPop=contentEl.querySelector('.lcr-section-popular');
+      if(prevPop) prevPop.remove();
+
+      if(!filtered.length){
+        if(showEl) showEl.textContent='No commands tracked yet — click copy on any command to start.';
+        return;
+      }
+      if(showEl) showEl.textContent=filtered.length+' most-used commands';
+
+      var popSection=buildSection('⭐ Most Used',filtered.map(function(e){return e.cmd;}),true);
+      popSection.classList.add('lcr-section-popular');
+      contentEl.prepend(popSection);
+      visible=filtered.length;
+    } else {
+      contentEl.querySelectorAll('.lcr-section:not(.lcr-section-popular)').forEach(function(section){
+        var catOk=activeFilter==='all'||section.dataset.category===activeFilter;
+        if(!catOk) return;
+        section.style.display='';
+        if(q){
+          section.querySelectorAll('tr').forEach(function(tr){
+            var cells=tr.querySelectorAll('td');
+            var hit=(cells[0]&&cells[0].textContent.toLowerCase().indexOf(q)>-1)||
+                    (cells[1]&&cells[1].textContent.toLowerCase().indexOf(q)>-1);
+            tr.classList.toggle('lcr-row-hidden',!hit);
+            if(hit) visible++;
+          });
+        } else {
+          section.querySelectorAll('tr').forEach(function(tr){
+            tr.classList.remove('lcr-row-hidden');
+            visible++;
+          });
+        }
+      });
+      var showEl=document.getElementById('lcr-showing');
+      if(showEl){
+        showEl.textContent=(q||activeFilter!=='all')
+          ?'Showing '+visible+' of '+totalCmds+' commands'
+          :'';
       }
     }
-
-    contentEl.querySelectorAll('.lcr-section').forEach(function(section){
-      if(section.dataset.category==='__popular__') return;
-      var catOk=activeFilter==='all'||section.dataset.category===activeFilter;
-      if(!catOk){section.style.display='none';return;}
-      section.style.display='';
-      section.querySelectorAll('tr').forEach(function(tr){
-        if(!q){tr.classList.remove('lcr-row-hidden');visible++;return;}
-        var cells=tr.querySelectorAll('td');
-        var hit=(cells[0]&&cells[0].textContent.toLowerCase().indexOf(q)>-1)||
-                (cells[1]&&cells[1].textContent.toLowerCase().indexOf(q)>-1);
-        tr.classList.toggle('lcr-row-hidden',!hit);
-        if(hit) visible++;
-      });
-    });
-    var showEl=document.getElementById('lcr-showing');
-    if(showEl){
-      showEl.textContent=(q||activeFilter!=='all')
-        ?'Showing '+visible+' of '+totalCmds+' commands'
-        :'';
-    }
   }
+  applyFilter();
 }
 
 document.addEventListener('nav',initLcr);

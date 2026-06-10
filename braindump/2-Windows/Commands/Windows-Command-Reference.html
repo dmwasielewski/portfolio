@@ -129,7 +129,12 @@ pre:hover > .expand-button {
 .lcr-btn.active{background:#3b82f6;color:#fff}
 #lcr-showing{font-size:0.83em;color:var(--gray);margin-bottom:10px;min-height:1.2em}
 .lcr-section{margin-bottom:26px}
-.lcr-section-title{font-size:0.82em;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#3b82f6;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid var(--lightgray)}
+.lcr-section-title{font-size:0.82em;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#3b82f6;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid var(--lightgray);display:flex;justify-content:space-between;align-items:center}
+.lcr-ct-count{font-size:0.76em;font-weight:400;opacity:0.7}
+.lcr-copy{background:none;border:1px solid var(--lightgray);border-radius:4px;padding:1px 7px;cursor:pointer;font-size:0.75em;color:var(--gray);transition:border-color .12s,color .12s;white-space:nowrap}
+.lcr-copy:hover{border-color:#3b82f6;color:#3b82f6}
+.lcr-copy-ok{color:#86efac;border-color:#86efac}
+.lcr-count-badge{background:rgba(59,130,246,0.12);color:#3b82f6;border-radius:10px;font-size:0.75em;font-weight:700;padding:1px 7px;margin-left:6px;white-space:nowrap;vertical-align:middle}
 .lcr-table{width:100%;border-collapse:collapse;font-size:0.88em}
 .lcr-table td{padding:6px 10px;border-bottom:1px solid var(--lightgray);vertical-align:top}
 .lcr-table td:first-child{font-family:ui-monospace,monospace;overflow-wrap:break-word;color:#3b82f6;font-weight:700;width:30%;max-width:30%}
