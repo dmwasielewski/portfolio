@@ -7,75 +7,64 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/prompt-master/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/prompt-master/SKILL</guid>
-    <description><![CDATA[ Generates optimized prompts for any AI tool. Use when writing, fixing, improving, or adapting a prompt for LLM, Cursor, Midjourney, image AI, video AI, coding agents, or any other AI tool. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/consolidate-memory/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/consolidate-memory/SKILL</guid>
+    <description><![CDATA[ Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/process-interviewer/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/process-interviewer/SKILL</guid>
-    <description><![CDATA[ Relentless process interviewer that extracts a complete, unambiguous plan from the user's head before any building begins. Use when the user wants to plan a complex task, design a process, build a skill, create a workflow, scope a project, or says things like "I want to build", "let's plan", "help me think through", "I have an idea for", "scope this out", "interview me", "help me figure out the process", "I need a skill that", or any variation where the user has a fuzzy idea that needs to be sharpened into a concrete plan. Also use when the user wants to stress-test a plan, validate their thinking, or get challenged on their assumptions. If the user's goal is to build a skill, this interviewer will automatically create it after the interview is complete. ALWAYS use this skill before jumping into building anything complex. Even if the user seems confident, the interview reveals gaps they didn't know they had. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/doc-coauthoring/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/doc-coauthoring/SKILL</guid>
+    <description><![CDATA[ Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/mcp-builder/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/mcp-builder/SKILL</guid>
-    <description><![CDATA[ Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/docx/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/docx/SKILL</guid>
+    <description><![CDATA[ Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/openrouter/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/openrouter/SKILL</guid>
-    <description><![CDATA[ OpenRouter API - Unified access to 400+ AI models through one API ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/pdf/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/pdf/SKILL</guid>
+    <description><![CDATA[ Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/humanizer/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/humanizer/SKILL</guid>
-    <description><![CDATA[ Remove signs of AI-generated writing from text. Use when editing or reviewing
-text to make it sound more natural and human-written. Based on Wikipedia's
-comprehensive "Signs of AI writing" guide. Detects and fixes patterns including:
-inflated symbolism, promotional language, superficial -ing analyses, vague
-attributions, em dash overuse, rule of three, AI vocabulary words, negative
-parallelisms, and excessive conjunctive phrases.
-
-Credits: Original skill by @blader - github.com/blader/humanizer
- ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/pptx/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/pptx/SKILL</guid>
+    <description><![CDATA[ Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions "deck," "slides," "presentation," or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/find-skills/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/find-skills/SKILL</guid>
-    <description><![CDATA[ Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/schedule/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/schedule/SKILL</guid>
+    <description><![CDATA[ Create a scheduled task that can be run on demand or automatically on an interval. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/frontend-slides/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/frontend-slides/SKILL</guid>
-    <description><![CDATA[ Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/setup-cowork/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/setup-cowork/SKILL</guid>
+    <description><![CDATA[ Guided Cowork setup — install a matching plugin, try a skill, connect tools. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/fact-checker/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/fact-checker/SKILL</guid>
-    <description><![CDATA[ Systematic fact verification and misinformation identification using evidence-based analysis.
-Use when: verifying claims, checking facts, identifying misinformation, evaluating source credibility,
-or when user asks to "fact check", "verify", "is this true", or mentions claims that need validation.
- ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/skill-creator/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/skill-creator/SKILL</guid>
+    <description><![CDATA[ Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/file-organizer/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/file-organizer/SKILL</guid>
-    <description><![CDATA[ Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/xlsx/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/xlsx/SKILL</guid>
+    <description><![CDATA[ Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like "the xlsx in my downloads") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/deep-research/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/deep-research/SKILL</guid>
-    <description><![CDATA[ This skill should be used when conducting comprehensive research on any topic using the OpenAI Deep Research API. It automates prompt enhancement through interactive clarifying questions, saves research parameters, and executes deep research with web search capabilities. Use when the user asks for in-depth analysis, investigation, research summaries, or topic exploration. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:03:52 GMT</pubDate>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/agent-browser/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/agent-browser/SKILL</guid>
+    <description><![CDATA[ Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to "open a website", "fill out a form", "click a button", "take a screenshot", "scrape data from a page", "test this web app", "login to a site", "automate browser actions", or any task requiring programmatic web interaction. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item>
     </channel>
   </rss>
