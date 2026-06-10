@@ -81,10 +81,11 @@ function initLcr(){
 
     // Command cell
     var td1=document.createElement('td');
-    td1.style.cssText='width:30%;max-width:30%;word-break:break-word';
+    td1.style.cssText='width:30%;max-width:30%;overflow-wrap:break-word';
+    td1.title=row[0];
     var cmdSpan=document.createElement('span');
     cmdSpan.style.cssText='font-family:ui-monospace,monospace;color:'+color+';font-weight:700;overflow-wrap:break-word';
-    cmdSpan.textContent=row[0];
+    cmdSpan.textContent=row[0].replace(/(\w)-(\w)/g,'$1‑$2');
     td1.appendChild(cmdSpan);
     if(showBadge){
       var counts=getCounts();
@@ -100,7 +101,6 @@ function initLcr(){
 
     // Description cell
     var td2=document.createElement('td');
-    td2.style.cssText='padding-left:10px;font-size:0.87em;color:var(--gray)';
     td2.textContent=row[1]||'';
     tr.appendChild(td2);
 
