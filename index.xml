@@ -6,6 +6,12 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Linux Command Reference</title>
+    <link>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</link>
+    <guid>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</guid>
+    <description><![CDATA[  #lcr-app{font-family:system-ui,-apple-system,sans-serif} #lcr-header{background:linear-gradient(135deg,#1e3a5f,#2563eb);border-radius:10px;padding:20px 24px;color:#fff;margin-bottom:18px} #lcr-header-title{font-size:1.15em;font-weight:600;margin-bottom:4px} #lcr-stats{font-size:0.88em;opacity:0.82}... ]]></description>
+    <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>SKILL</title>
     <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/consolidate-memory/SKILL</link>
     <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/consolidate-memory/SKILL</guid>
@@ -58,12 +64,6 @@
     <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/xlsx/SKILL</link>
     <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/xlsx/SKILL</guid>
     <description><![CDATA[ Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like "the xlsx in my downloads") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
-  </item><item>
-    <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/agent-browser/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/agent-browser/SKILL</guid>
-    <description><![CDATA[ Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to "open a website", "fill out a form", "click a button", "take a screenshot", "scrape data from a page", "test this web app", "login to a site", "automate browser actions", or any task requiring programmatic web interaction. ]]></description>
     <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item>
     </channel>
