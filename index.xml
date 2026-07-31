@@ -39,13 +39,13 @@
     <title>Linux Command Reference</title>
     <link>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</link>
     <guid>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</guid>
-    <description><![CDATA[  #lcr-app{font-family:system-ui,-apple-system,sans-serif} #lcr-header{background:linear-gradient(135deg,#1e3a5f,#2563eb);border-radius:10px;padding:20px 24px;color:#fff;margin-bottom:18px} #lcr-header-title{font-size:1.15em;font-weight:600;margin-bottom:4px} #lcr-stats{font-size:0.88em;opacity:0.82}... ]]></description>
+    <description><![CDATA[ A searchable, filterable reference of 439 Linux commands across 22 categories, with copy buttons for daily terminal and admin work. ]]></description>
     <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Windows Command Reference</title>
     <link>https://www.dmwasielewski.me/braindump/2-Windows/Commands/Windows-Command-Reference</link>
     <guid>https://www.dmwasielewski.me/braindump/2-Windows/Commands/Windows-Command-Reference</guid>
-    <description><![CDATA[  #lcr-app{font-family:system-ui,-apple-system,sans-serif} #lcr-header{background:linear-gradient(135deg,#1e3a5f,#3b82f6);border-radius:10px;padding:20px 24px;color:#fff;margin-bottom:18px} #lcr-header-title{font-size:1.15em;font-weight:600;margin-bottom:4px} #lcr-stats{font-size:0.88em;opacity:0.82}... ]]></description>
+    <description><![CDATA[ A searchable, filterable reference of 258 Windows and PowerShell commands across 15 categories, for support and endpoint administration. ]]></description>
     <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
