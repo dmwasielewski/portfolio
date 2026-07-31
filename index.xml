@@ -6,17 +6,23 @@
       <description>Last 10 notes on dmwasielewski</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>SKILL</title>
+    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/openrouter/SKILL</link>
+    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/meta-skills/openrouter/SKILL</guid>
+    <description><![CDATA[ OpenRouter API - Unified access to 400+ AI models through one API ]]></description>
+    <pubDate>Fri, 31 Jul 2026 00:01:28 GMT</pubDate>
+  </item><item>
     <title>Linux Command Reference</title>
     <link>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</link>
     <guid>https://www.dmwasielewski.me/braindump/1-Linux/Commands/Linux-Command-Reference</guid>
     <description><![CDATA[  #lcr-app{font-family:system-ui,-apple-system,sans-serif} #lcr-header{background:linear-gradient(135deg,#1e3a5f,#2563eb);border-radius:10px;padding:20px 24px;color:#fff;margin-bottom:18px} #lcr-header-title{font-size:1.15em;font-weight:600;margin-bottom:4px} #lcr-stats{font-size:0.88em;opacity:0.82}... ]]></description>
-    <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Windows Command Reference</title>
     <link>https://www.dmwasielewski.me/braindump/2-Windows/Commands/Windows-Command-Reference</link>
     <guid>https://www.dmwasielewski.me/braindump/2-Windows/Commands/Windows-Command-Reference</guid>
     <description><![CDATA[  #lcr-app{font-family:system-ui,-apple-system,sans-serif} #lcr-header{background:linear-gradient(135deg,#1e3a5f,#3b82f6);border-radius:10px;padding:20px 24px;color:#fff;margin-bottom:18px} #lcr-header-title{font-size:1.15em;font-weight:600;margin-bottom:4px} #lcr-stats{font-size:0.88em;opacity:0.82}... ]]></description>
-    <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>SKILL</title>
     <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/consolidate-memory/SKILL</link>
@@ -58,12 +64,6 @@
     <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/setup-cowork/SKILL</link>
     <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/setup-cowork/SKILL</guid>
     <description><![CDATA[ Guided Cowork setup — install a matching plugin, try a skill, connect tools. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
-  </item><item>
-    <title>SKILL</title>
-    <link>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/skill-creator/SKILL</link>
-    <guid>https://www.dmwasielewski.me/braindump/11-AI-skills/core-skills/skill-creator/SKILL</guid>
-    <description><![CDATA[ Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. ]]></description>
     <pubDate>Wed, 10 Jun 2026 16:15:17 GMT</pubDate>
   </item>
     </channel>
