@@ -163,7 +163,15 @@ pre:hover > .expand-button {
 <p>A firewall does not make a service exist.<br/>
 It only affects whether traffic is allowed to reach that service.</p>
 <p>Think of the path like this:</p>
-<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="text" data-theme="github-light github-dark"><code data-language="text" data-theme="github-light github-dark" style="display:grid;"><span data-line><span>name resolution -> routing -> port reachability -> application response</span></span></code></pre></figure>
+<pre><button class="expand-button" aria-label="Expand mermaid diagram" data-view-component="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 1.06L2.56 7h10.88l-2.22-2.22a.75.75 0 011.06-1.06l3.5 3.5a.75.75 0 010 1.06l-3.5 3.5a.75.75 0 11-1.06-1.06l2.22-2.22H2.56l2.22 2.22a.75.75 0 11-1.06 1.06l-3.5-3.5a.75.75 0 010-1.06l3.5-3.5z"></path></svg></button><code class="mermaid" data-clipboard="&quot;flowchart LR\n  A[\&quot;name resolution\&quot;]\n  B[\&quot;routing\&quot;]\n  C[\&quot;port reachability\&quot;]\n  D[\&quot;application response\&quot;]\n  A --> B\n  B --> C\n  C --> D&quot;">flowchart LR
+  A[&quot;name resolution&quot;]
+  B[&quot;routing&quot;]
+  C[&quot;port reachability&quot;]
+  D[&quot;application response&quot;]
+  A --> B
+  B --> C
+  C --> D
+</code><div id="mermaid-container" role="dialog"><div id="mermaid-space"><div class="mermaid-content"></div></div></div></pre>
 <p>Even if:</p>
 <ul>
 <li>DNS works</li>
